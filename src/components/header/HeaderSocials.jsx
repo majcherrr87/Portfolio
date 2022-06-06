@@ -1,9 +1,10 @@
 import React from 'react';
+
 import {BsLinkedin} from 'react-icons/bs';
 import {FaGithub} from 'react-icons/fa';
 import {GrFacebook} from 'react-icons/gr';
 
-const HeaderSocials = () => {
+export const HeaderSocials = () => {
     return (
         <div className="header__socials">
             <a href="http://linkedin.com" target='_blank'><BsLinkedin/></a>
@@ -13,4 +14,4 @@ const HeaderSocials = () => {
     );
 };
 
-export default HeaderSocials;
+

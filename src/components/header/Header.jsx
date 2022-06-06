@@ -1,11 +1,12 @@
 import React from 'react';
-import './header.css';
-import CTA from './CTA';
+import {CTA} from './CTA';
+import {HeaderSocials} from "./HeaderSocials";
+
 import ME from '../../assets/me.png';
-import HeaderSocials from "./HeaderSocials";
+import './header.css';
 
 
-const Header = () => {
+export const Header = () => {
     return (
         <header>
             <div className="container header__container">
@@ -23,6 +24,6 @@ const Header = () => {
             </div>
         </header>
     )
-}
+};
 
-export default Header
+
