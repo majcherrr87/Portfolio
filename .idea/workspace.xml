@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testimonials/Testimonials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/Testimonials.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testimonials/testimonials.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/testimonials.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2A1Iu8nIjY6VdKchuPGNYIs5Hqg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -23,17 +32,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "Z:/Adrian/Portfolio/react-portfolio-website/src/components/portfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\portfolio" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -67,7 +81,13 @@
       <workItem from="1654504067032" duration="16261000" />
       <workItem from="1654592081439" duration="547000" />
       <workItem from="1654600249239" duration="1238000" />
-      <workItem from="1654611384851" duration="4590000" />
+      <workItem from="1654611384851" duration="5238000" />
+      <workItem from="1654852541898" duration="133000" />
+      <workItem from="1654862612494" duration="595000" />
+      <workItem from="1655192034225" duration="638000" />
+      <workItem from="1655199810817" duration="35000" />
+      <workItem from="1663058092262" duration="1622000" />
+      <workItem from="1663238808865" duration="9606000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -104,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654534776828</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finish Services components">
+      <created>1654616780619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654616780619</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +147,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added components" />
@@ -129,6 +155,7 @@
     <MESSAGE value="Added react-icons and work at header" />
     <MESSAGE value="Finish header and start to nav" />
     <MESSAGE value="Finish Experience components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Experience components" />
+    <MESSAGE value="Finish Services components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Services components" />
   </component>
 </project>
