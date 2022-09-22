@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\portfolio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\contact" />
     </key>
   </component>
   <component name="RunManager">
@@ -92,7 +95,7 @@
       <workItem from="1663750944022" duration="849000" />
       <workItem from="1663787263380" duration="160000" />
       <workItem from="1663787473007" duration="647000" />
-      <workItem from="1663832320727" duration="6765000" />
+      <workItem from="1663832320727" duration="10769000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -150,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663341460696</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finish component Contact">
+      <created>1663844600138</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663844600138</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +187,7 @@
     <MESSAGE value="Finish Services components" />
     <MESSAGE value="Added dwo new conponent portfolio and testimonial" />
     <MESSAGE value="Added new component Contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new component Contact" />
+    <MESSAGE value="finish component Contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish component Contact" />
   </component>
 </project>

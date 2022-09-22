@@ -14,16 +14,16 @@ nav {
 }
 nav a {
     background: transparent;
-    padding: 0.8rem;
+    padding: 0.9rem;
     border-radius: 50%;
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
 }
 nav a:hover {
-    background: rgba(0,0,0, 0.4);
+    background: rgba(0,0,0, 0.3);
 }
 nav a.active {
-    background: var(--color-bg);
-    color: var(--color-white);
+    background: var(--color-primary);
+    color: var(--color-bg);
 }
