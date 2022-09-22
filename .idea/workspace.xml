@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +88,11 @@
       <workItem from="1663058092262" duration="1622000" />
       <workItem from="1663238808865" duration="9980000" />
       <workItem from="1663256269820" duration="59000" />
-      <workItem from="1663334220552" duration="803000" />
+      <workItem from="1663334220552" duration="1196000" />
+      <workItem from="1663750944022" duration="849000" />
+      <workItem from="1663787263380" duration="160000" />
+      <workItem from="1663787473007" duration="647000" />
+      <workItem from="1663832320727" duration="6765000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -137,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663255971097</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added new component Contact">
+      <created>1663341460696</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663341460696</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +176,7 @@
     <MESSAGE value="Finish Experience components" />
     <MESSAGE value="Finish Services components" />
     <MESSAGE value="Added dwo new conponent portfolio and testimonial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dwo new conponent portfolio and testimonial" />
+    <MESSAGE value="Added new component Contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new component Contact" />
   </component>
 </project>
