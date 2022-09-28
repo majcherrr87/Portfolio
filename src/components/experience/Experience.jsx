@@ -2,6 +2,22 @@ import React from 'react';
 
 import './experience.css';
 import {BsPatchCheckFill} from 'react-icons/bs';
+import html from '../../TechStack/html.png';
+import css from '../../TechStack/css.png';
+import javascript from '../../TechStack/JavaScript.png';
+import bootstrap from '../../TechStack/Bootstrap.png';
+import expressjs from '../../TechStack/Expressjs.png';
+import git from '../../TechStack/git.png';
+import jest from '../../TechStack/jest.png';
+import mongo from '../../TechStack/MongoDB.png';
+import mysql from '../../TechStack/MySQL.png';
+import nest from '../../TechStack/nestjs.png';
+import node from '../../TechStack/node.png';
+import react from '../../TechStack/React.png';
+import typescript from '../../TechStack/Typescript.png';
+
+
+
 
 export const Experience = () => {
     return (
@@ -14,7 +30,7 @@ export const Experience = () => {
                     <h3>Frontend Development</h3>
                     <div className="experience__content">
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon'/>
+                            <img className='tech_stack_icon' src={html} alt="html"/>
                             <div>
                                 <h4>HTML</h4>
                                 <small className="text-light">Experienced</small>
@@ -22,7 +38,7 @@ export const Experience = () => {
                         </article>
 
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon'/>
+                            <img className='tech_stack_icon' src={css} alt="css"/>
                             <div>
                                 <h4>CSS</h4>
                                 <small className="text-light">Intermediate</small>
@@ -30,7 +46,7 @@ export const Experience = () => {
                         </article>
 
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon'/>
+                            <img className='tech_stack_icon' src={javascript} alt="javascript"/>
                             <div>
                                 <h4>JavaScripts</h4>
                                 <small className="text-light">Experienced</small>
@@ -38,7 +54,7 @@ export const Experience = () => {
                         </article>
 
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon'/>
+                            <img className='tech_stack_icon' src={bootstrap} alt="bootstrap"/>
                             <div>
                                 <h4>Bootsprap</h4>
                                 <small className="text-light">Experienced</small>
@@ -54,7 +70,7 @@ export const Experience = () => {
                         </article>
 
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon'/>
+                            <img className='tech_stack_icon' src={react} alt="react"/>
                             <div>
                                 <h4>React</h4>
                                 <small className="text-light">Experienced</small>

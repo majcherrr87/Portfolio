@@ -25,6 +25,7 @@ header {
     position: absolute;
     left: 0;
     bottom: 3rem;
+    font-size: 1.5rem;
 }
 .header__socials::after {
     content: "";
@@ -51,20 +52,11 @@ header {
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
 }
-/* =================== MEDIA QUERIES (MEDIUM DEVICES) ======================= */
-@media screen and (max-width: 1024px) {
-    header {
-        height: 69vh;
-    }
 
-}
 /* =================== MEDIA QUERIES (SMALL DEVICES) ======================= */
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
     .header__socials, .scroll__down{
         display: none;
     }
