@@ -1,129 +1,52 @@
 import React from 'react';
 
 import './experience.css';
-import {BsPatchCheckFill} from 'react-icons/bs';
-import html from '../../TechStack/html.png';
-import css from '../../TechStack/css.png';
-import javascript from '../../TechStack/JavaScript.png';
-import bootstrap from '../../TechStack/Bootstrap.png';
-import expressjs from '../../TechStack/Expressjs.png';
-import git from '../../TechStack/git.png';
-import jest from '../../TechStack/jest.png';
-import mongo from '../../TechStack/MongoDB.png';
-import mysql from '../../TechStack/MySQL.png';
-import nest from '../../TechStack/nestjs.png';
-import node from '../../TechStack/node.png';
-import react from '../../TechStack/React.png';
-import typescript from '../../TechStack/Typescript.png';
 
-
+import {dataFront, dataBack} from './data-experience';
 
 
 export const Experience = () => {
     return (
         <section id='experience'>
-            <h5>What Skills I Have</h5>
-            <h2>My Experience</h2>
+            <h5>Doświadczenie</h5>
+            <h2>Moje umiejętności</h2>
 
             <div className="container experience__container">
                 <div className="experience__frontend">
-                    <h3>Frontend Development</h3>
+                    <h3>Frontend</h3>
                     <div className="experience__content">
-                        <article className='experience__details'>
-                            <img className='tech_stack_icon' src={html} alt="html"/>
-                            <div>
-                                <h4>HTML</h4>
-                                <small className="text-light">Experienced</small>
-                            </div>
-                        </article>
 
-                        <article className='experience__details'>
-                            <img className='tech_stack_icon' src={css} alt="css"/>
-                            <div>
-                                <h4>CSS</h4>
-                                <small className="text-light">Intermediate</small>
-                            </div>
-                        </article>
+                        {dataFront.map(({name, logo, skill}) => {
+                            return (
+                                <article className='experience__details'>
+                                    <img className='tech_stack_icon' src={logo} alt={name}/>
+                                    <div>
+                                        <h4>{name}</h4>
+                                        <small className="text-light">{skill}</small>
+                                    </div>
+                                </article>
+                            )
+                        })}
 
-                        <article className='experience__details'>
-                            <img className='tech_stack_icon' src={javascript} alt="javascript"/>
-                            <div>
-                                <h4>JavaScripts</h4>
-                                <small className="text-light">Experienced</small>
-                            </div>
-                        </article>
-
-                        <article className='experience__details'>
-                            <img className='tech_stack_icon' src={bootstrap} alt="bootstrap"/>
-                            <div>
-                                <h4>Bootsprap</h4>
-                                <small className="text-light">Experienced</small>
-                            </div>
-                        </article>
-
-                        <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon'/>
-                            <div>
-                                <h4>Tailwind</h4>
-                                <small className="text-light">Experienced</small>
-                            </div>
-                        </article>
-
-                        <article className='experience__details'>
-                            <img className='tech_stack_icon' src={react} alt="react"/>
-                            <div>
-                                <h4>React</h4>
-                                <small className="text-light">Experienced</small>
-                            </div>
-                        </article>
 
                     </div>
 
                 </div>
-                {/*END OF FRONTEND*/}
 
                 <div className="experience__backend">
-                    <h3>Backend Development</h3>
+                    <h3>Backend</h3>
                     <div className="experience__content">
-                        <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon'/>
-                           <div>
-                               <h4>Node JS</h4>
-                               <small className="text-light">Experienced</small>
-                           </div>
-                        </article>
-
-                        <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon'/>
-                            <div>
-                                <h4>MongoDB</h4>
-                                <small className="text-light">Intermediate</small>
-                            </div>
-                        </article>
-
-                        <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon'/>
-                            <div>
-                                <h4>PHP</h4>
-                                <small className="text-light">Intermediate</small>
-                            </div>
-                        </article>
-
-                        <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon'/>
-                            <div>
-                                <h4>MySQL</h4>
-                                <small className="text-light">Basic</small>
-                            </div>
-                        </article>
-
-                        <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon'/>
-                            <div>
-                                <h4>Python</h4>
-                                <small className="text-light">Experienced</small>
-                            </div>
-                        </article>
+                        {dataBack.map(({name, logo, skill}) => {
+                            return (
+                                <article className='experience__details'>
+                                    <img className='tech_stack_icon' src={logo} alt={name}/>
+                                    <div>
+                                        <h4>{name}</h4>
+                                        <small className="text-light">{skill}</small>
+                                    </div>
+                                </article>
+                            )
+                        })}
 
 
                     </div>

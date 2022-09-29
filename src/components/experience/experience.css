@@ -2,10 +2,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    justify-items: stretch;
 }
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding: 2.4rem 2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -28,6 +29,7 @@
 .experience__details {
     display: flex;
     gap: 1rem;
+    align-items: center;
 }
 .experience__details-icon {
     margin-top: 6px;
@@ -57,9 +59,19 @@
 @media screen and (max-width: 600px) {
     .experience__container {
         gap: 1rem;
+
     }
     .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
+        text-align: center;
+    }
+    .experience__details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .experience__content{
+        padding: 0;
     }
 }

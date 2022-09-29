@@ -8,9 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/experience/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/Experience.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/experience/experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/experience.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/CTA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/CTA.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderSocials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HeaderSocials.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +96,8 @@
       <workItem from="1663787473007" duration="647000" />
       <workItem from="1663832320727" duration="12621000" />
       <workItem from="1664273564584" duration="631000" />
-      <workItem from="1664354682908" duration="6867000" />
+      <workItem from="1664354682908" duration="7218000" />
+      <workItem from="1664442126644" duration="9380000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -171,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663848700954</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add new information">
+      <created>1664381571230</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664381571230</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +205,7 @@
     <MESSAGE value="Added new component Contact" />
     <MESSAGE value="finish component Contact" />
     <MESSAGE value="finish all page" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish all page" />
+    <MESSAGE value="add new information" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new information" />
   </component>
 </project>
