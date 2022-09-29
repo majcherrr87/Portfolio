@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/Experience.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/experience.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.css" afterDir="false" />
-    </list>
+    <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +92,7 @@
       <workItem from="1663832320727" duration="12621000" />
       <workItem from="1664273564584" duration="631000" />
       <workItem from="1664354682908" duration="7218000" />
-      <workItem from="1664442126644" duration="9380000" />
+      <workItem from="1664442126644" duration="10047000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -176,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664381571230</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new style css and data-experience">
+      <created>1664456690810</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664456690810</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +208,7 @@
     <MESSAGE value="finish component Contact" />
     <MESSAGE value="finish all page" />
     <MESSAGE value="add new information" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new information" />
+    <MESSAGE value="new style css and data-experience" />
+    <option name="LAST_COMMIT_MESSAGE" value="new style css and data-experience" />
   </component>
 </project>
