@@ -16,9 +16,9 @@ export const Experience = () => {
                     <h3>Frontend</h3>
                     <div className="experience__content">
 
-                        {dataFront.map(({name, logo, skill}) => {
+                        {dataFront.map(({id, name, logo, skill}) => {
                             return (
-                                <article className='experience__details'>
+                                <article key={id} className='experience__details'>
                                     <img className='tech_stack_icon' src={logo} alt={name}/>
                                     <div>
                                         <h4>{name}</h4>
@@ -36,9 +36,9 @@ export const Experience = () => {
                 <div className="experience__backend">
                     <h3>Backend</h3>
                     <div className="experience__content">
-                        {dataBack.map(({name, logo, skill}) => {
+                        {dataBack.map(({id, name, logo, skill}) => {
                             return (
-                                <article className='experience__details'>
+                                <article key={id} className='experience__details'>
                                     <img className='tech_stack_icon' src={logo} alt={name}/>
                                     <div>
                                         <h4>{name}</h4>

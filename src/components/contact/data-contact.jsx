@@ -1,7 +1,7 @@
 export const data = [
     {
         id:1,
-        title: 'Email',
+        title: 'E-mail',
         link: 'majcherrr87@gmail.com',
         address: 'mailto:majcherrr87@gmail.com',
         info: 'Wyślij e-mila'

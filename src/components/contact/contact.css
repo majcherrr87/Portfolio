@@ -43,7 +43,7 @@
 form {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem
+    gap: 1.2rem;
 }
 input, textarea {
     width: 100%;
@@ -54,6 +54,12 @@ input, textarea {
     resize: none;
     color: var(--color-white);
 }
+.contact__message {
+    font-size: 0.8rem;
+    transform: translateX(25px);
+}
+
+
 
 /* =================== MEDIA QUERIES (MEDIUM DEVICES) ======================= */
 @media screen and (max-width: 1024px) {
