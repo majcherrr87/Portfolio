@@ -12,7 +12,7 @@ export const Services = () => {
 
             <div className="container services__container">
 
-                {data.map(({id,logo, description,link, skill, certificate}) => {
+                {data.map(({id,logo, description,link, skill, certificate }) => {
                     return (
                         <article key={id} className="service">
                             <div className="service__head">
@@ -23,9 +23,9 @@ export const Services = () => {
                             </div>
                             <ul className="service__list">
                                 <p>{description}</p>
-                                {skill.map(li => {
+                                {skill.map((li,index) => {
                                     return (
-                                        <li>
+                                        <li key={index}>
 
                                             <BiCheck className='service__list-icon'/>
                                             <p>{li}</p>

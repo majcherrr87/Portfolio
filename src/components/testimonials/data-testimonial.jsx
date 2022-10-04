@@ -6,22 +6,26 @@ import AVATAR4 from '../../assets/avatar4.jpg';
 export const data = [
     {
         avatar: AVATAR1,
-        name: 'Tina Snow',
+        name: 'Pawel Tatarata',
+        position: 'Tester oprogramowania w Craftware',
         review: 'Bardzo dobry klient polecam wszystkim'
     },
     {
         avatar: AVATAR2,
-        name: 'Ilona Majcher',
+        name: 'Andrzej Tracz',
+        position: 'Specjalista ds. automatyki w Caterpillar Inc.',
         review: 'Bardzo dobry klient polecam wszystkim'
     },
     {
         avatar: AVATAR3,
-        name: 'Lisa Majcher',
+        name: 'Rafał Pośpiech',
+        position: 'RTR Specialist w firmie Bystronic',
         review: 'Bardzo dobry klient polecam wszystkim'
     },
     {
         avatar: AVATAR4,
-        name: 'Kot Filemon',
+        name: 'Ilona Majcher',
+        position: 'PMO / CANAL+ Poland / Project Portfolio Management ',
         review: 'Bardzo dobry klient polecam wszystkim'
     }
 ]

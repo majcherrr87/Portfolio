@@ -10,8 +10,8 @@ import {data} from './data-testimonial';
 export const Testimonials = () => {
     return (
         <section id='testimonials'>
-            <h5>Rewiew from clients</h5>
-            <h2>Testimonials</h2>
+            <h5>Moi znajomi</h5>
+            <h2>Opinie</h2>
 
             <Swiper
                 className="container testimonials__container"
@@ -21,13 +21,14 @@ export const Testimonials = () => {
                 pagination={{ clickable: true }}
                 >
                 {
-                    data.map(({avatar, name, review}, index) => {
+                    data.map(({avatar, name, review, position}, index) => {
                         return (
                             <SwiperSlide key={index} className="testimonial">
                                 <div className="client__avatar">
                                     <img src={avatar} alt={name}/>
                                 </div>
-                                <h5 className="client__name">{name}</h5>
+                                <p className="client__name">{name}</p>
+                                <h5 className="client__name">{position}</h5>
                                 <small className="client__review">{review}</small>
                             </SwiperSlide>
                         )

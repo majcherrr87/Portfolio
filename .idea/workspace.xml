@@ -4,10 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="add new information to about me component">
+    <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="add new info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/avatar1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/avatar2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/avatar3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/avatar4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testimonials/Testimonials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/Testimonials.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testimonials/data-testimonial.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/data-testimonial.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +122,7 @@
       <workItem from="1664354682908" duration="7218000" />
       <workItem from="1664442126644" duration="10751000" />
       <workItem from="1664531317839" duration="9179000" />
-      <workItem from="1664799895541" duration="17866000" />
+      <workItem from="1664799895541" duration="24068000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -216,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664881002775</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add new skills">
+      <created>1664888879489</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664888879489</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +269,7 @@
     <MESSAGE value="new style css and data-experience" />
     <MESSAGE value="add new animation" />
     <MESSAGE value="add new information to about me component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new information to about me component" />
+    <MESSAGE value="add new skills" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new skills" />
   </component>
 </project>

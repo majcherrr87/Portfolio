@@ -6,7 +6,7 @@ import {data} from './data-portfolio';
 export const Portfolio = () => {
     return (
         <section id='portfolio'>
-            <h5>My Recent Work</h5>
+            <h5>Moje przykładowe projekty</h5>
             <h2>Portfolio</h2>
 
             <div className="container portfolio__container">
@@ -20,7 +20,11 @@ export const Portfolio = () => {
                                 <h3>{title}</h3>
                                 <div className="portfolio__item-cta">
                                     <a href={github} className='btn' target='_blank'>Github</a>
-                                    <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+
+                                    {demo.includes('#')
+                                    ? <a href={demo} className='btn btn-primary'>Live Demo</a>
+                                    : <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                                    }
                                 </div>
                             </article>
                         )
