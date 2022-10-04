@@ -1,6 +1,7 @@
 import React from 'react';
 import './services.css';
 import {BiCheck} from 'react-icons/bi';
+import {FaMedal} from "react-icons/fa";
 import {data} from './data-service';
 
 export const Services = () => {
@@ -11,21 +12,35 @@ export const Services = () => {
 
             <div className="container services__container">
 
-                {data.map(({logo, skill}) => {
+                {data.map(({id,logo, description,link, skill, certificate}) => {
                     return (
-                        <article className="service">
+                        <article key={id} className="service">
                             <div className="service__head">
-                                <img className='service__head-icon' src={logo} alt=""/>
+                                <a href={link} target='_blank'>
+                                    <img className='service__head-icon' src={logo} alt=""/>
+                                </a>
+
                             </div>
                             <ul className="service__list">
+                                <p>{description}</p>
                                 {skill.map(li => {
                                     return (
                                         <li>
+
                                             <BiCheck className='service__list-icon'/>
                                             <p>{li}</p>
                                         </li>
                                     )
                                 })}
+                                {
+                                    certificate
+                                        ?
+                                        <li>
+                                            <FaMedal className='service__list-icon'/>
+                                            <a href={certificate} target='_blank'> Certyfikat  </a>
+                                        </li>
+                                        : ''
+                                }
                             </ul>
                         </article>
                     )

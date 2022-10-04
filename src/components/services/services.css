@@ -34,8 +34,11 @@
 .service__list li {
     display: grid;
     gap: 1rem;
-    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
     grid-template-columns: 15px 1fr;
+}
+.service__list p {
+    grid-template-columns:  1fr;
 }
 .service__list-icon {
     color: var(--color-primary);
