@@ -8,7 +8,7 @@ import {dataFront, dataBack} from './data-experience';
 export const Experience = () => {
     return (
         <section id='experience'>
-            <h5>Doświadczenie</h5>
+            <h5>Skills</h5>
             <h2>Moje umiejętności</h2>
 
             <div className="container experience__container">

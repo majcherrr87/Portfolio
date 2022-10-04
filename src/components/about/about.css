@@ -40,7 +40,7 @@
 }
 .about__icon {
     color: var(--color-primary);
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
 }
 .about__card h5 {
@@ -54,6 +54,7 @@
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
+
 /* =================== MEDIA QUERIES (MEDIUM DEVICES) ======================= */
 @media screen and (max-width: 1024px) {
     .about__container {

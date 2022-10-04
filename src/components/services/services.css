@@ -17,9 +17,11 @@
 }
 .service__head {
     background: var(--color-primary);
-    padding: 2rem;
+    padding: 10px;
     border-radius: 0 0 2rem 2rem;
     box-shadow: 0 2rem 1rem rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
 }
 .service__head h3 {
     color: var(--color-bg);
@@ -27,19 +29,27 @@
     text-align: center;
 }
 .service__list {
-    padding: 2rem;
+    padding: 1rem;
 }
 .service__list li {
-    display: flex;
+    display: grid;
     gap: 1rem;
     margin-bottom: 0.8rem;
+    grid-template-columns: 15px 1fr;
 }
 .service__list-icon {
     color: var(--color-primary);
     margin-top: 2px;
+    font-size: 1rem;
 }
 .service__list p {
     font-size: 0.9rem;
+}
+.service__head img {
+    height: 50px;
+    width: auto;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222)
 }
 
 /* =================== MEDIA QUERIES (MEDIUM DEVICES) ======================= */
