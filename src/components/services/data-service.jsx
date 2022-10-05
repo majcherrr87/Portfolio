@@ -1,6 +1,6 @@
-import megak from '../../assets/megak.webp';
-import udemy from '../../assets/udemy.png';
-import alx from '../../assets/alx.png';
+import megak from '../../assets/courses/megak.webp';
+import udemy from '../../assets/courses/udemy.png';
+import alx from '../../assets/courses/alx.png';
 import {FaMedal} from "react-icons/fa";
 import React from "react";
 

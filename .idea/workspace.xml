@@ -4,17 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="add new info">
-      <change beforePath="$PROJECT_DIR$/src/assets/avatar1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/avatar2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/avatar3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/avatar4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio6.jpg" beforeDir="false" />
+    <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/avatar1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar/avatar2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/avatar2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar/avatar3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/avatar3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar/avatar4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/avatar4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar/avatar1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio/portfolio1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio/portfolio2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio/portfolio3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio/portfolio4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/experience/data-experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/data-experience.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/data-service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/data-service.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testimonials/data-testimonial.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/data-testimonial.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,25 +42,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Z:/Adrian/Portfolio/react-portfolio-website/src/components/portfolio&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "Z:/Adrian/Mega Kurs/Project/zamowienia_emial_front",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\portfolio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\contact" />
+      <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\assets\portfolio" />
+      <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\assets\courses" />
+      <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\assets\avatar" />
+      <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\assets" />
+      <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -116,7 +127,9 @@
       <workItem from="1664354682908" duration="7218000" />
       <workItem from="1664442126644" duration="10751000" />
       <workItem from="1664531317839" duration="9179000" />
-      <workItem from="1664799895541" duration="24552000" />
+      <workItem from="1664799895541" duration="25342000" />
+      <workItem from="1664914500390" duration="1649000" />
+      <workItem from="1664956292916" duration="17817000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -237,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664895854848</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="finish page">
+      <created>1664895929121</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664895929121</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

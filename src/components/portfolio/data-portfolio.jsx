@@ -1,7 +1,7 @@
-import IMG1 from '../../assets/portfolio1.jpg';
-import IMG2 from '../../assets/portfolio2.jpg';
-import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
+import IMG1 from '../../assets/portfolio/ezgif.com-gif-maker.gif';
+import IMG2 from '../../assets/portfolio/barn.gif';
+import IMG3 from '../../assets/portfolio/zamowienia.gif';
+import IMG4 from '../../assets/portfolio/portfolio4.jpg';
 
 export const data = [
     {

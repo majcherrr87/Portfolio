@@ -1,18 +1,18 @@
 import React from 'react';
-import html from '../../TechStack/html2.png';
-import css from '../../TechStack/css.png';
-import javascript from '../../TechStack/JavaScript.png';
-import bootstrap from '../../TechStack/Bootstrap.png';
-import expressjs from '../../TechStack/Expressjs.png';
-import git from '../../TechStack/git.png';
-import jest from '../../TechStack/jest.png';
-import mongo from '../../TechStack/MongoDB.png';
-import mysql from '../../TechStack/MySQL.png';
-import nest from '../../TechStack/nestjs.png';
-import node from '../../TechStack/node.png';
-import react from '../../TechStack/React.png';
-import typescript from '../../TechStack/Typescript.png';
-import sass from '../../TechStack/sass.png';
+import html from '../../assets/techStack/html2.png';
+import css from '../../assets/techStack/css.png';
+import javascript from '../../assets/techStack/JavaScript.png';
+import bootstrap from '../../assets/techStack/Bootstrap.png';
+import expressjs from '../../assets/techStack/Expressjs.png';
+import git from '../../assets/techStack/git.png';
+import jest from '../../assets/techStack/jest.png';
+import mongo from '../../assets/techStack/MongoDB.png';
+import mysql from '../../assets/techStack/MySQL.png';
+import nest from '../../assets/techStack/nestjs.png';
+import node from '../../assets/techStack/node.png';
+import react from '../../assets/techStack/React.png';
+import typescript from '../../assets/techStack/Typescript.png';
+import sass from '../../assets/techStack/sass.png';
 
 export const dataFront = [
     {
