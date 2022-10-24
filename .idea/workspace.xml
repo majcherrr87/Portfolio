@@ -6,21 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cv/Cv.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/Cv.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cv/cv.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/data-experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/data-experience.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderSocials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HeaderSocials.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/data-service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/data-service.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/testimonials/data-testimonial.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/data-testimonial.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +119,7 @@
       <workItem from="1666260173278" duration="2029000" />
       <workItem from="1666262451815" duration="312000" />
       <workItem from="1666266440436" duration="7502000" />
-      <workItem from="1666601737700" duration="11184000" />
+      <workItem from="1666601737700" duration="20076000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -267,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664983708581</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add left side of CV">
+      <created>1666629989490</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1666629989490</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +297,7 @@
     <MESSAGE value="add new skills" />
     <MESSAGE value="finish page" />
     <MESSAGE value="add react router dom and CV component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add react router dom and CV component" />
+    <MESSAGE value="add left side of CV" />
+    <option name="LAST_COMMIT_MESSAGE" value="add left side of CV" />
   </component>
 </project>
