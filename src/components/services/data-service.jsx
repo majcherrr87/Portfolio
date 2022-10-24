@@ -1,8 +1,8 @@
 import megak from '../../assets/courses/megak.webp';
 import udemy from '../../assets/courses/udemy.png';
 import alx from '../../assets/courses/alx.png';
-import {FaMedal} from "react-icons/fa";
-import React from "react";
+
+
 
 // const certificate = <a href='wp.pl'>Certyfikat <FaMedal className='service__list-icon'/> </a>;
 

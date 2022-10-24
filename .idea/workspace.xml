@@ -8,20 +8,19 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/avatar1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar/avatar2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/avatar2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar/avatar3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/avatar3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar/avatar4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/avatar4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/avatar/avatar1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio/portfolio1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio/portfolio2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio/portfolio3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio/portfolio4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/Cv.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/Cv.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/cv.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/experience/data-experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/data-experience.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderSocials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HeaderSocials.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/services/data-service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/data-service.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/testimonials/data-testimonial.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/data-testimonial.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "Z:/Adrian/Mega Kurs/Project/zamowienia_emial_front",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kot i Miś/Desktop/202208_1_nieaktualna_lub_brak_daty.html&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\portfolio" />
@@ -129,7 +128,11 @@
       <workItem from="1664531317839" duration="9179000" />
       <workItem from="1664799895541" duration="25342000" />
       <workItem from="1664914500390" duration="1649000" />
-      <workItem from="1664956292916" duration="17817000" />
+      <workItem from="1664956292916" duration="19322000" />
+      <workItem from="1666260173278" duration="2029000" />
+      <workItem from="1666262451815" duration="312000" />
+      <workItem from="1666266440436" duration="7502000" />
+      <workItem from="1666601737700" duration="11184000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -257,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664895929121</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add react router dom and CV component">
+      <created>1664983708581</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1664983708581</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +302,7 @@
     <MESSAGE value="add new information to about me component" />
     <MESSAGE value="add new skills" />
     <MESSAGE value="finish page" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish page" />
+    <MESSAGE value="add react router dom and CV component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add react router dom and CV component" />
   </component>
 </project>

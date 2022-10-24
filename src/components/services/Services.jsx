@@ -16,7 +16,7 @@ export const Services = () => {
                     return (
                         <article key={id} className="service">
                             <div className="service__head">
-                                <a href={link} target='_blank'>
+                                <a href={link} target='_blank' rel="noopener noreferrer">
                                     <img className='service__head-icon' src={logo} alt=""/>
                                 </a>
 
@@ -37,7 +37,7 @@ export const Services = () => {
                                         ?
                                         <li>
                                             <FaMedal className='service__list-icon'/>
-                                            <a href={certificate} target='_blank'> Certyfikat  </a>
+                                            <a href={certificate} target='_blank' rel="noopener noreferrer"> Certyfikat  </a>
                                         </li>
                                         : ''
                                 }

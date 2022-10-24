@@ -1,4 +1,3 @@
-import React from 'react';
 import html from '../../assets/techStack/html2.png';
 import css from '../../assets/techStack/css.png';
 import javascript from '../../assets/techStack/JavaScript.png';

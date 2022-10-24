@@ -41,7 +41,7 @@ export const Contact = () => {
                               <h4>{title}</h4>
 
                               <h5>{link}</h5>
-                              <a href={address} target="_blank">{info}</a>
+                              <a href={address} target="_blank" rel="noopener noreferrer">{info}</a>
                           </article>
                       )
                     })}
