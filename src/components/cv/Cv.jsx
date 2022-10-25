@@ -1,9 +1,29 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import './cv.css'
-import foto from '../../assets/avatar/avatar1.jpg';
 import {FaGithub} from "react-icons/fa";
+import {HiOutlineLocationMarker} from "react-icons/hi";
+import {BsTelephone, BsGlobe, BsLinkedin} from "react-icons/bs";
+import {HiOutlineMailOpen} from "react-icons/hi";
+import {GrFacebook} from "react-icons/gr";
 
 export const Cv = () => {
+    const [userAvatar, setUserAvatar] = useState('');
+    const [userBio, setUserBio] = useState('');
+    const [userWww, setUserWww] = useState('');
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const res = await fetch(`https://api.github.com/users/majcherrr87`);
+            const data = await res.json();
+            setUserAvatar(data.avatar_url);
+            setUserBio(data.bio);
+            setUserWww(data.blog);
+        }
+        fetchData();
+
+
+    },[]);
+
     return (
         <>
             <div className='cv-container'>
@@ -11,55 +31,78 @@ export const Cv = () => {
                     <section className="left-section">
                         <div className="left-content">
                             <div className="profile">
-                                <img src={foto} alt=""/>
+                                <div className="image">
+                                    <img src={userAvatar} alt=""/>
+                                </div>
                                 <h2 className="cv-name">Adrian Majcher</h2>
                                 <p className="career">Web developer</p>
                             </div>
                             <div className="contact-info">
-                                <h3 className="main-title">Contact Info</h3>
+                                <h3 className="main-title">Profil</h3>
+                                <p>{userBio}</p>
+                            </div>
+                            <div className="contact-info">
+                                <h3 className="main-title">Kontakt</h3>
                                 <ul>
                                     <li>
-                                        <FaGithub className='cv-icon'/>
-                                        513 354 369
+                                        <HiOutlineLocationMarker className='cv-icon'/>
+                                        <a href="https://goo.gl/maps/H1zremZNWYgrKWQ36" target='_blank' rel="noopener noreferrer">Warszawa</a>
                                     </li>
                                     <li>
-                                        <FaGithub className='cv-icon'/>
-                                        majcherrr87@gmail.com
+                                        <BsTelephone className='cv-icon'/>
+                                        <a href="tel:513354369">513 354 369</a>
                                     </li>
                                     <li>
-                                        <FaGithub className='cv-icon'/>
-                                        www.majcher.pl
+                                        <HiOutlineMailOpen className='cv-icon'/>
+                                        <a href="mailto:majcherrr87@gmail.com">majcherrr87@gmail.com</a>
+
+                                    </li>
+                                    <li>
+                                        <BsGlobe className='cv-icon'/>
+                                        <a href={'http://'+ userWww} target='_blank' rel="noopener noreferrer">{userWww}</a>
                                     </li>
                                 </ul>
                             </div>
-                            <div className="skills-section">
-                                <h3 className="main-title">Skills</h3>
+                            <div className="contact-info">
+                                <h3 className="main-title">Social</h3>
                                 <ul>
                                     <li>
-                                        <p className="skill-title">JavaScript</p>
-                                        <div className="progress-bar">
-                                            <div className="progress js-progress"></div>
-                                        </div>
+                                        <FaGithub className='cv-icon'/>
+                                        <a href="https://github.com/majcherrr87" target='_blank' rel="noopener noreferrer">GitHub</a>
                                     </li>
                                     <li>
-                                        <p className="skill-title">JavaScript</p>
-                                        <div className="progress-bar">
-                                            <div className="progress js-progress"></div>
-                                        </div>
+                                        <GrFacebook className='cv-icon'/>
+                                        <a href="https://www.facebook.com/adrian.majcher.568/" target='_blank' rel="noopener noreferrer">Facebook</a>
                                     </li>
                                     <li>
-                                        <p className="skill-title">Javaipt</p>
-                                        <div className="progress-bar">
-                                            <div className="progress js-progress"></div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <p className="skill-title">JavaScripvvcxvt</p>
-                                        <div className="progress-bar">
-                                            <div className="progress js-progress"></div>
-                                        </div>
+                                        <BsLinkedin className='cv-icon'/>
+                                        <a href="https://www.linkedin.com/in/adrian-majcher-46a529163/" target='_blank' rel="noopener noreferrer">Linkedin</a>
+
                                     </li>
                                 </ul>
+                            </div>
+
+                            <div className="skills-section">
+                                <h3 className="main-title">Edukacja</h3>
+                                <div className="timeline">
+                                    <div className="right-tl-content">
+                                        <div className="tl-content">
+                                            <h5 className="tl-title-2">Junior Dev</h5>
+                                            <p className="para">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Consequuntur deserunt earum et voluptates? Accusamus aliquid autem
+                                                cupiditate deleniti dolores eius est ex, inventore reprehenderit sint
+                                                ullam ut veniam veritatis voluptates.</p>
+                                        </div>
+                                        <div className="tl-content">
+                                            <h5 className="tl-title-2">Junior Dev</h5>
+                                            <p className="para">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Consequuntur deserunt earum et voluptates? Accusamus aliquid autem
+                                                cupiditate deleniti dolores eius est ex, inventore reprehenderit sint
+                                                ullam ut veniam veritatis voluptates.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                             <div className="references-section">
                                 <h3 className="main-title">References</h3>
@@ -207,7 +250,41 @@ export const Cv = () => {
 
                                 </div>
                             </section>
+                            <section className="awards sect">
+                                <h2 className="right-title">Awards</h2>
+                                <div className="timeline">
+                                    <div className="left-tl-content">
+                                        <h5 className="tl-title">Excellent Work</h5>
+                                        <p className="para">2001 - 2003</p>
+                                    </div>
+                                    <div className="right-tl-content">
+                                        <div className="tl-content">
+                                            <h5 className="tl-title-2">Junior Dev</h5>
+                                            <p className="para">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Consequuntur deserunt earum et voluptates? Accusamus aliquid autem
+                                                cupiditate deleniti dolores eius est ex, inventore reprehenderit sint
+                                                ullam ut veniam veritatis voluptates.</p>
+                                        </div>
+                                    </div>
 
+                                </div>
+                                <div className="timeline">
+                                    <div className="left-tl-content">
+                                        <h5 className="tl-title">Excellent Work</h5>
+                                        <p className="para">2001 - 2003</p>
+                                    </div>
+                                    <div className="right-tl-content">
+                                        <div className="tl-content">
+                                            <h5 className="tl-title-2">Junior Dev</h5>
+                                            <p className="para">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Consequuntur deserunt earum et voluptates? Accusamus aliquid autem
+                                                cupiditate deleniti dolores eius est ex, inventore reprehenderit sint
+                                                ullam ut veniam veritatis voluptates.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </section>
                         </div>
                     </section>
                 </main>
