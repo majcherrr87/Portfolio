@@ -165,7 +165,7 @@ h3.main-title {
 }
 .timeline {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 4fr;
 }
 .timeline.left-timeline {
     display: grid;
@@ -183,6 +183,14 @@ h3.main-title {
     color: #2D9CDB;
     text-transform: uppercase;
 }
+.tl-content ul li span{
+    color: #718096;
+    margin-left: .3rem;
+}
+.tl-title-2.proj{
+    text-align: left;
+    text-transform: none;
+}
 .tl-title-2::before {
     content: "";
     position: absolute;
@@ -199,6 +207,23 @@ h3.main-title {
     position: relative;
     padding-bottom: 2rem;
 }
+.proj-content p{
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.left-tl-content img {
+    margin: 0 auto;
+}
+.left-tl-content #megak {
+    width: 60%;
+}
+.left-tl-content #alx {
+    width: 100%;
+}
+.left-tl-content #udemy {
+    width: 70%;
+}
 .tech-stock{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -206,14 +231,24 @@ h3.main-title {
     justify-items: center;
 }
 .tech-stock-icon{
+    display: grid;
+    grid-template-rows: 50px 60px;
     margin: 20px auto;
     width: 50px;
     height: 50px;
+    justify-items: center;
+    justify-content: center;
+}
+.tech-stock-icon img {
+    width: auto;
+    height: 100%;
 }
 .tech-stock-desc{
     color: black;
-    text-align: center;
     font-size: 1rem;
+}
+a#link:hover{
+    color: black;
 }
 /*Media Queries*/
 @media screen and (max-width: 823px){
