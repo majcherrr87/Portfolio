@@ -5,6 +5,7 @@ import {HiOutlineLocationMarker} from "react-icons/hi";
 import {BsTelephone, BsGlobe, BsLinkedin} from "react-icons/bs";
 import {HiOutlineMailOpen} from "react-icons/hi";
 import {GrFacebook} from "react-icons/gr";
+import html from '../../assets/techStack/html.png';
 
 export const Cv = () => {
     const [userAvatar, setUserAvatar] = useState('');
@@ -84,88 +85,91 @@ export const Cv = () => {
 
                             <div className="skills-section">
                                 <h3 className="main-title">Edukacja</h3>
-                                <div className="timeline">
+                                <div className="timeline left-timeline">
                                     <div className="right-tl-content">
                                         <div className="tl-content">
-                                            <h5 className="tl-title-2">Junior Dev</h5>
-                                            <p className="para">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                elit. Consequuntur deserunt earum et voluptates? Accusamus aliquid autem
-                                                cupiditate deleniti dolores eius est ex, inventore reprehenderit sint
-                                                ullam ut veniam veritatis voluptates.</p>
+                                            <h5 className="tl-title-2">Wyższa szkoła zarządzania i Administracji</h5>
+                                            <p className="para"><b>Inżynier Oprogramowania</b></p>
+                                            <p className="para">2013 - 2017</p>
                                         </div>
                                         <div className="tl-content">
-                                            <h5 className="tl-title-2">Junior Dev</h5>
-                                            <p className="para">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                elit. Consequuntur deserunt earum et voluptates? Accusamus aliquid autem
-                                                cupiditate deleniti dolores eius est ex, inventore reprehenderit sint
-                                                ullam ut veniam veritatis voluptates.</p>
+                                            <h5 className="tl-title-2">Liceum profilowane</h5>
+                                            <p className="para">o profilu <b>Zarządzanie informacją</b></p>
+                                            <p className="para">2003 - 2006</p>
                                         </div>
                                     </div>
 
                                 </div>
                             </div>
-                            <div className="references-section">
-                                <h3 className="main-title">References</h3>
-                                <div className="referee">
-                                    <h6 className="sub-title">Michael Bowen</h6>
-                                    <p className='sub-para'>Product Manager</p>
-                                    <ul>
-                                        <li>
-                                            <FaGithub className='cv-icon'/>
-                                            513 354 369
-                                        </li>
-                                        <li>
-                                            <FaGithub className='cv-icon'/>
-                                            majcherrr87@gmail.com
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="referee">
-                                    <h6 className="sub-title">Michael Bowen</h6>
-                                    <p className='sub-para'>Product Manager</p>
-                                    <ul>
-                                        <li>
-                                            <FaGithub className='cv-icon'/>
-                                            513 354 369
-                                        </li>
-                                        <li>
-                                            <FaGithub className='cv-icon'/>
-                                            majcherrr87@gmail.com
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="referee">
-                                    <h6 className="sub-title">Michael Bowen</h6>
-                                    <p className='sub-para'>Product Manager</p>
-                                    <ul>
-                                        <li>
-                                            <FaGithub className='cv-icon'/>
-                                            513 354 369
-                                        </li>
-                                        <li>
-                                            <FaGithub className='cv-icon'/>
-                                            majcherrr87@gmail.com
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+
                         </div>
                     </section>
                     <section className="right-section">
                         <div className="right-main-content">
                             <section className="about sect">
-                                <h2 className="right-title">About Me</h2>
-                                <p className="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
-                                    delectus dignissimos dolorem quas. Assumenda expedita molestias possimus quasi
-                                    veniam. Aperiam laborum perspiciatis porro provident veniam voluptatum. Dolores
-                                    iusto quidem velit. <br/> <br/>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam commodi dolore
-                                    dolorum impedit molestias natus, neque obcaecati odit, qui quidem quis quo tenetur
-                                    vel
-                                </p>
+                                <h2 className="right-title">Tech stack</h2>
+                                <div className="tech-stock">
+                                    <div className="tech-stock-icon">
+                                        <img src={html} alt=""/>
+                                        <h5 className='tech-stock-desc'>HTML</h5>
+                                    </div>
+                                    <div className="tech-stock-icon">
+                                        <img src={html} alt=""/>
+                                        <h5 className='tech-stock-desc'>HTML</h5>
+                                    </div>
+                                    <div className="tech-stock-icon">
+                                        <img src={html} alt=""/>
+                                        <h5 className='tech-stock-desc'>HTML</h5>
+                                    </div>
+                                    <div className="tech-stock-icon">
+                                        <img src={html} alt=""/>
+                                        <h5 className='tech-stock-desc'>HTML</h5>
+                                    </div>
+                                    <div className="tech-stock-icon">
+                                        <img src={html} alt=""/>
+                                        <h5 className='tech-stock-desc'>HTML</h5>
+                                    </div>
+                                    <div className="tech-stock-icon">
+                                        <img src={html} alt=""/>
+                                        <h5 className='tech-stock-desc'>HTML</h5>
+                                    </div>
+                                    <div className="tech-stock-icon">
+                                        <img src={html} alt=""/>
+                                        <h5 className='tech-stock-desc'>HTML</h5>
+                                    </div>
+                                    <div className="tech-stock-icon">
+                                        <img src={html} alt=""/>
+                                        <h5 className='tech-stock-desc'>HTML</h5>
+                                    </div>
+                                    <div className="tech-stock-icon">
+                                        <img src={html} alt=""/>
+                                        <h5 className='tech-stock-desc'>HTML</h5>
+                                    </div>
+                                    <div className="tech-stock-icon">
+                                        <img src={html} alt=""/>
+                                        <h5 className='tech-stock-desc'>HTML</h5>
+                                    </div>
+                                    <div className="tech-stock-icon">
+                                        <img src={html} alt=""/>
+                                        <h5 className='tech-stock-desc'>HTML</h5>
+                                    </div>
+                                    <div className="tech-stock-icon">
+                                        <img src={html} alt=""/>
+                                        <h5 className='tech-stock-desc'>HTML</h5>
+                                    </div>
+                                    <div className="tech-stock-icon">
+                                        <img src={html} alt=""/>
+                                        <h5 className='tech-stock-desc'>HTML</h5>
+                                    </div>
+                                    <div className="tech-stock-icon">
+                                        <img src={html} alt=""/>
+                                        <h5 className='tech-stock-desc'>HTML</h5>
+                                    </div>
+
+                                </div>
                             </section>
                             <section className="experience sect">
-                                <h2 className="right-title">Experience</h2>
+                                <h2 className="right-title">Kursy i szkolenia</h2>
                                 <div className="timeline">
                                     <div className="left-tl-content">
                                         <h5 className="tl-title">Microsoft</h5>
