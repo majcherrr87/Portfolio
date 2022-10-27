@@ -17,8 +17,6 @@ export const Cv = () => {
             setUserWww(data.blog);
         }
         fetchData();
-
-
     }, []);
 
     return (

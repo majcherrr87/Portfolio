@@ -191,7 +191,7 @@ h3.main-title {
     text-align: left;
     text-transform: none;
 }
-.tl-title-2::before {
+.tl-title-2.line::before {
     content: "";
     position: absolute;
     width: .7rem;

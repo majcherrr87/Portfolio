@@ -11,7 +11,7 @@ export const Education = () => {
                         {dataEdu.map(({title, desc, year},index) => {
                             return (
                                 <div className="tl-content" key={index}>
-                                    <h5 className="tl-title-2">{title}</h5>
+                                    <h5 className="tl-title-2 line">{title}</h5>
                                     <p className="para"><b>{desc}</b></p>
                                     <p className="para">{year}</p>
                                 </div>
