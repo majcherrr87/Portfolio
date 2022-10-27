@@ -6,7 +6,7 @@ export const Experience = () => {
     return (
         <>
             <section className="experience sect">
-                <h2 className="right-title">Kursy i szkolenia</h2>
+                <h2 className="right-title small">Kursy i szkolenia</h2>
 
                 {dataExperience.map(({id, logo, title, para, li}) => {
                     return (

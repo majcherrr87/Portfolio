@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cv/Cv.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/Cv.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/Education.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/Education.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/RightSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/RightSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/Experience.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cv/cv.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cv/data-cv.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/data-cv.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/CTA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/CTA.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +122,7 @@
       <workItem from="1666601737700" duration="20875000" />
       <workItem from="1666692755263" duration="13406000" />
       <workItem from="1666780740393" duration="26215000" />
-      <workItem from="1666862254110" duration="10298000" />
+      <workItem from="1666862254110" duration="13947000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -296,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666822506782</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="finish cv component">
+      <created>1666874120570</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1666874120570</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +340,7 @@
     <MESSAGE value="add social and education to cv component" />
     <MESSAGE value="add education and tech stack to cv component" />
     <MESSAGE value="add props to cv component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add props to cv component" />
+    <MESSAGE value="finish cv component" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish cv component" />
   </component>
 </project>

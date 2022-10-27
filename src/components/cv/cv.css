@@ -247,6 +247,9 @@ h3.main-title {
     color: black;
     font-size: 1rem;
 }
+#link {
+    overflow-wrap: anywhere
+}
 a#link:hover{
     color: black;
 }
@@ -257,10 +260,12 @@ a#link:hover{
     }
 }
 @media screen and (max-width: 681px){
-    .right-title::after {
-        width: 30%;
+    .timeline {
+        grid-template-columns: repeat(1,1fr);
     }
 }
+
+
 @media screen and (max-width: 780px){
     .timeline {
         grid-template-columns: repeat(1,1fr);
@@ -271,6 +276,45 @@ a#link:hover{
     .right-section {
         grid-column: span 4;
     }
+    .tech-stock {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .main-content {
+        width: 95%;
+    }
+    .right-main-content #megak{
+        width: 30%;
+    }
+    .right-main-content #alx{
+        width: 60%;
+    }
+    .right-main-content #udemy{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 600px){
+    .tech-stock {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .right-title::after {
+        width: 40%;
+    }
+    .right-title.small::after {
+        width: 20%;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .tech-stock {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .right-main-content {
+        padding: 2rem 1rem;
+    }
+    .right-title.small::after {
+        width: 10%;
+    }
+
 }
 @media screen and (max-width: 1200px){
     .main-content {
@@ -278,6 +322,9 @@ a#link:hover{
     }
     .profile img {
         width: 40%;
+    }
+    .main-content {
+        width: 90%;
     }
 }
 @media screen and (max-width: 700px){
