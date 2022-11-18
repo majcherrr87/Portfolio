@@ -4,6 +4,7 @@ import {Profile} from "./profile";
 import {Contact} from "./Contact";
 import {Social} from "./Social";
 import {Education} from "./Education";
+import {BackToHomePage} from "./BackToHomePage";
 
 export const LeftSection = ({avatar, bio, www}) => {
     return (
@@ -15,6 +16,7 @@ export const LeftSection = ({avatar, bio, www}) => {
                     <Social/>
                     <Education/>
                 </div>
+
             </section>
         </>
     )

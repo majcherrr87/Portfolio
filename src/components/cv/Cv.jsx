@@ -1,7 +1,8 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import './cv.css'
-import {LeftSection} from "./cv-component/left-section";
-import {RightSection} from "./cv-component/RightSection";
+import { LeftSection } from "./cv-component/left-section";
+import { RightSection } from "./cv-component/RightSection";
+import {BackToHomePage} from "./cv-component/BackToHomePage";
 
 export const Cv = () => {
     const [userAvatar, setUserAvatar] = useState('');
@@ -22,9 +23,10 @@ export const Cv = () => {
     return (
         <>
             <div className='cv-container'>
+                <BackToHomePage/>
                 <main className='main-content'>
-                    <LeftSection avatar={userAvatar} bio={userBio} www={userWww}/>
-                    <RightSection www={userWww}/>
+                    <LeftSection avatar={userAvatar} bio={userBio} www={userWww} />
+                    <RightSection www={userWww} />
                 </main>
             </div>
         </>

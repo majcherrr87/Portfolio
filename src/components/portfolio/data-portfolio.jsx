@@ -5,30 +5,30 @@ import IMG4 from '../../assets/portfolio/portfolio4.jpg';
 
 export const data = [
     {
-        id:1,
+        id: 1,
         image: IMG1,
-        title: 'Portfolio',
+        title: 'Moje Portfolio',
         github: 'https://github.com/majcherrr87/Portfolio',
         demo: '#'
     },
     {
-        id:2,
+        id: 2,
         image: IMG2,
         title: 'Gra Memory',
         github: 'https://github.com/majcherrr87/Barn_memory',
         demo: 'https://majcherrr87.github.io/Barn_memory/'
     },
     {
-        id:3,
+        id: 3,
         image: IMG3,
         title: 'Aplikacja do zamówień',
         github: 'https://github.com/majcherrr87/zamowienia_email_front',
-        demo: 'https://majcher.networkmanager.pl/'
+        demo: '/zamowienia-email#'
     },
     {
-        id:4,
+        id: 4,
         image: IMG4,
-        title: 'Project grupowy',
+        title: 'Head Hunter - Project grupowy',
         github: 'https://github.com/tomczer2t/head_hunter_front#introduction',
         demo: '#portfolio'
     },

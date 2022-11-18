@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/Experience.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/Cv.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/Cv.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/left-section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/left-section.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cv/cv.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +34,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Z:/Adrian/Mega Kurs/Grupowy_project/head_hunter_front&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Z:/Adrian/Mega Kurs/Project/zamowienia_emial_front&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -76,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +128,10 @@
       <workItem from="1666601737700" duration="20875000" />
       <workItem from="1666692755263" duration="13406000" />
       <workItem from="1666780740393" duration="26215000" />
-      <workItem from="1666862254110" duration="13947000" />
+      <workItem from="1666862254110" duration="17169000" />
+      <workItem from="1667990644689" duration="39000" />
+      <workItem from="1668003292553" duration="999000" />
+      <workItem from="1668418143493" duration="9264000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -299,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666874120570</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add new style">
+      <created>1666878352281</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1666878352281</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,6 +357,7 @@
     <MESSAGE value="add education and tech stack to cv component" />
     <MESSAGE value="add props to cv component" />
     <MESSAGE value="finish cv component" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish cv component" />
+    <MESSAGE value="add new style" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new style" />
   </component>
 </project>
