@@ -4,7 +4,7 @@ import './about.css';
 import {FaAward} from 'react-icons/fa';
 import {BiTerminal} from 'react-icons/bi';
 import {VscFolderLibrary} from 'react-icons/vsc';
-import ME from '../../assets/me-about.jpg';
+import ME from '../../assets/Adrian2.jpg';
 
 export const About = () => {
     return (

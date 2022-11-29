@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
+    <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="finish application">
+      <change afterPath="$PROJECT_DIR$/src/assets/Adrian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Adrian2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/CV_AdrianMajcher.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/portfolio/portfolio1.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cv/Cv.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/Cv.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/left-section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/left-section.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cv/cv.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/cv.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/me-about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/me.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio/ezgif.com-gif-maker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio/portfolio1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio/portfolio2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio/portfolio3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/portfolio/portfolio4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio/portfolio4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/BackToHomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/BackToHomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/CTA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/CTA.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testimonials/data-testimonial.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/data-testimonial.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/zamowieniaEmail/ZamowieniaEmail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/zamowieniaEmail/ZamowieniaEmail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/zamowieniaEmail/zamowienia-emial.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/zamowieniaEmail/zamowienia-emial.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +146,11 @@
       <workItem from="1667990644689" duration="39000" />
       <workItem from="1668003292553" duration="999000" />
       <workItem from="1668418143493" duration="9264000" />
+      <workItem from="1668781447503" duration="279000" />
+      <workItem from="1669037130697" duration="3258000" />
+      <workItem from="1669131138823" duration="2025000" />
+      <workItem from="1669151985497" duration="2234000" />
+      <workItem from="1669714715524" duration="5681000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -315,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666878352281</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add button back to home page in CV component">
+      <created>1668781577957</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1668781577957</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,8 +359,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added components" />
-    <MESSAGE value="Added generel css" />
     <MESSAGE value="&#10;&#10;Added react-icons and work at header" />
     <MESSAGE value="Added react-icons and work at header" />
     <MESSAGE value="Finish header and start to nav" />
@@ -358,6 +382,8 @@
     <MESSAGE value="add props to cv component" />
     <MESSAGE value="finish cv component" />
     <MESSAGE value="add new style" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new style" />
+    <MESSAGE value="add button back to home page in CV component" />
+    <MESSAGE value="finish application" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish application" />
   </component>
 </project>

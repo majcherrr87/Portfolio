@@ -2,7 +2,7 @@ import React from 'react';
 import {CTA} from './CTA';
 import {HeaderSocials} from "./HeaderSocials";
 
-import ME from '../../assets/me.png';
+import ME from '../../assets/Adrian.png';
 import './header.css';
 
 

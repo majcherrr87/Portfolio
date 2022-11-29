@@ -1,4 +1,4 @@
-import IMG1 from '../../assets/portfolio/ezgif.com-gif-maker.gif';
+import IMG1 from '../../assets/portfolio/portfolio1.gif';
 import IMG2 from '../../assets/portfolio/barn.gif';
 import IMG3 from '../../assets/portfolio/zamowienia.gif';
 import IMG4 from '../../assets/portfolio/portfolio4.jpg';
