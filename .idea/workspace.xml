@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="finish application">
-      <change afterPath="$PROJECT_DIR$/src/assets/Adrian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Adrian2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/CV_AdrianMajcher.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portfolio/portfolio1.gif" afterDir="false" />
+    <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/cv.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/me-about.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/me.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio/ezgif.com-gif-maker.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio/portfolio1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio/portfolio2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio/portfolio3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/portfolio/portfolio4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/portfolio/portfolio4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/BackToHomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/BackToHomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/CTA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/CTA.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/testimonials/data-testimonial.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/data-testimonial.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/zamowieniaEmail/ZamowieniaEmail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/zamowieniaEmail/ZamowieniaEmail.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/zamowieniaEmail/zamowienia-emial.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/zamowieniaEmail/zamowienia-emial.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +26,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Z:/Adrian/Mega Kurs/Project/zamowienia_emial_front&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "Z:/Adrian/Portfolio/react-portfolio-website",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\portfolio" />
@@ -96,8 +76,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +130,9 @@
       <workItem from="1669037130697" duration="3258000" />
       <workItem from="1669131138823" duration="2025000" />
       <workItem from="1669151985497" duration="2234000" />
-      <workItem from="1669714715524" duration="5681000" />
+      <workItem from="1669714715524" duration="6391000" />
+      <workItem from="1669811730584" duration="2443000" />
+      <workItem from="1678292241800" duration="410000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -341,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668781577957</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="finish application">
+      <created>1669724300912</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1669724300912</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
