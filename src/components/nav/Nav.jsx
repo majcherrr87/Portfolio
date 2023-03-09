@@ -5,9 +5,11 @@ import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai';
 import {FiBook} from "react-icons/fi";
 import {RiServiceLine} from "react-icons/ri";
 import {BiMessageSquareDetail} from "react-icons/bi";
+import {GrLanguage} from "react-icons/gr";
 
 
-export const Nav = () => {
+
+export const Nav = ({lang}) => {
     const [activeNav, setActiveNav] = useState('#');
 
     return (
@@ -37,6 +39,14 @@ export const Nav = () => {
                    onClick={() => setActiveNav('#contact')}
                    className={activeNav === '#contact' ? 'active' : ''}>
                     <BiMessageSquareDetail/>
+                </a>
+                <a href="/"
+                   onClick={() => localStorage.setItem('lang', lang === 'PL' ? 'EN' : 'PL')}
+                >
+
+                    <span>POL</span>
+                    TODO: ustawić ikone zmiany języka
+
                 </a>
             </nav>
         </div>

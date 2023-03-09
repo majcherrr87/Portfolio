@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Header} from "../components/header/Header";
 import {Nav} from "../components/nav/Nav";
 import {About} from "../components/about/About";
@@ -11,18 +11,18 @@ import {Footer} from "../components/footer/Footer";
 import '../index.css';
 
 
-export const PortfolioView = () => {
+export const PortfolioView = ({lang}) => {
     return (
         <>
-            <Header />
-            <Nav />
-            <About />
-            <Services />
-            <Experience />
-            <Portfolio />
-            <Testimonials />
-            <Contact />
-            <Footer />
+            <Header lang={lang} />
+            <Nav lang={lang}/>
+            <About lang={lang}/>
+            <Services lang={lang}/>
+            <Experience lang={lang}/>
+            <Portfolio lang={lang}/>
+            <Testimonials lang={lang}/>
+            <Contact lang={lang}/>
+            <Footer lang={lang}/>
         </>
     )
 };

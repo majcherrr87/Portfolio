@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/CTA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/CTA.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/PortfolioView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/PortfolioView.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +43,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "C:\\Users\\Kot i Miś\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.4167.31\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -132,7 +138,7 @@
       <workItem from="1669151985497" duration="2234000" />
       <workItem from="1669714715524" duration="6391000" />
       <workItem from="1669811730584" duration="2443000" />
-      <workItem from="1678292241800" duration="410000" />
+      <workItem from="1678292241800" duration="14755000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -330,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669724300912</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="start add eng version">
+      <created>1678292713909</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1678292713909</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +361,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&#10;&#10;Added react-icons and work at header" />
     <MESSAGE value="Added react-icons and work at header" />
     <MESSAGE value="Finish header and start to nav" />
     <MESSAGE value="Finish Experience components" />
@@ -373,6 +385,7 @@
     <MESSAGE value="add new style" />
     <MESSAGE value="add button back to home page in CV component" />
     <MESSAGE value="finish application" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish application" />
+    <MESSAGE value="start add eng version" />
+    <option name="LAST_COMMIT_MESSAGE" value="start add eng version" />
   </component>
 </project>

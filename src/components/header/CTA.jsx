@@ -3,12 +3,11 @@ import {Link} from "react-router-dom";
 
 import CV from '../../assets/CV_AdrianMajcher.pdf';
 
-export const CTA = () => {
+export const CTA = ({watchCv, downloadCv}) => {
     return (
         <div className="cta">
-            <a href={CV} download className='btn'>Pobierz CV</a>
-            <Link to="/cv" className='btn btn-primary'>Zobacz CV</Link>
-
+            <a href={CV} download className='btn'>{downloadCv}</a>
+            <Link to="/cv" className='btn btn-primary'>{watchCv}</Link>
         </div>
     )
 };
