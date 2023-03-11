@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Profile = ({name, career,avatar, bio}) => {
+export const Profile = ({name, career,avatar, bio, profile}) => {
     return (
         <>
             <div className="profile">
@@ -11,7 +11,7 @@ export const Profile = ({name, career,avatar, bio}) => {
                 <p className="career">{career}</p>
             </div>
             <div className="contact-info">
-                <h3 className="main-title">Profil</h3>
+                <h3 className="main-title">{profile}</h3>
                 <p>{bio}</p>
             </div>
         </>

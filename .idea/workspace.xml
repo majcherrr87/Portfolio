@@ -7,22 +7,14 @@
     <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/data-contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/data-contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/Experience.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/data-experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/data-experience.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/data-lang-Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/data-lang-Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/data-service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/data-service.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/testimonials/Testimonials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/Testimonials.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/testimonials/data-testimonial.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/data-testimonial.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/Cv.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/Cv.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/BackToHomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/BackToHomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/Social.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/Social.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/left-section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/left-section.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/data-cv.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/data-cv.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/CvView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CvView.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +143,7 @@
       <workItem from="1669714715524" duration="6391000" />
       <workItem from="1669811730584" duration="2443000" />
       <workItem from="1678292241800" duration="14923000" />
-      <workItem from="1678542166518" duration="18494000" />
+      <workItem from="1678542166518" duration="22790000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -363,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678320017602</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="pade have english text">
+      <created>1678574462671</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1678574462671</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +380,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish header and start to nav" />
     <MESSAGE value="Finish Experience components" />
     <MESSAGE value="Finish Services components" />
     <MESSAGE value="Added dwo new conponent portfolio and testimonial" />
@@ -406,6 +404,7 @@
     <MESSAGE value="finish application" />
     <MESSAGE value="start add eng version" />
     <MESSAGE value="one component is finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="one component is finish" />
+    <MESSAGE value="pade have english text" />
+    <option name="LAST_COMMIT_MESSAGE" value="pade have english text" />
   </component>
 </project>

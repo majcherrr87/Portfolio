@@ -3,8 +3,10 @@ import {GrFacebook} from "react-icons/gr";
 import {BsLinkedin} from "react-icons/bs";
 import React from "react";
 import {dataProfile} from "../data-cv";
+import {langTxt} from "../../../assets/assets";
 
-export const Social = () => {
+export const Social = ({lang}) => {
+    const {github, facebook, linkedin} = langTxt(lang, dataProfile)
     return (
         <>
             <div className="contact-info">
@@ -12,17 +14,17 @@ export const Social = () => {
                 <ul>
                     <li>
                         <FaGithub className='cv-icon'/>
-                        <a href={dataProfile.github} target='_blank'
+                        <a href={github} target='_blank'
                            rel="noopener noreferrer">GitHub</a>
                     </li>
                     <li>
                         <GrFacebook className='cv-icon'/>
-                        <a href={dataProfile.facebook} target='_blank'
+                        <a href={facebook} target='_blank'
                            rel="noopener noreferrer">Facebook</a>
                     </li>
                     <li>
                         <BsLinkedin className='cv-icon'/>
-                        <a href={dataProfile.linkedin} target='_blank'
+                        <a href={linkedin} target='_blank'
                            rel="noopener noreferrer">Linkedin</a>
 
                     </li>

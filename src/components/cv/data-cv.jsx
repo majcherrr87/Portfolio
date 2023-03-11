@@ -16,16 +16,37 @@ import megak from '../../assets/courses/megaK2.webp';
 import alx from '../../assets/courses/alx.png';
 import udemy from '../../assets/courses/udemy.png';
 
-export const dataProfile = {
-    name: 'Adrian Majcher',
-    career: 'Inżynier oprogramowania',
-    city: 'Warszawa',
-    tel: 513354369,
-    email: 'majcherrr87@gmail.com',
-    github: 'https://github.com/majcherrr87',
-    facebook: 'https://www.facebook.com/adrian.majcher.568/',
-    linkedin: 'https://www.linkedin.com/in/adrian-majcher-46a529163/',
-};
+
+export const dataProfile = [
+    {
+        lang: 'POL',
+        name: 'Adrian Majcher',
+        career: 'Inżynier oprogramowania',
+        city: 'Warszawa',
+        tel: 513354369,
+        email: 'majcherrr87@gmail.com',
+        github: 'https://github.com/majcherrr87',
+        facebook: 'https://www.facebook.com/adrian.majcher.568/',
+        linkedin: 'https://www.linkedin.com/in/adrian-majcher-46a529163/',
+        bio: 'Jestem początkującym programistą języka Javascript, specjalizującym się w backendzie. Jestem gotowy do podjęcia nowych wyzwań.',
+        profile: 'Profil',
+        contact: 'Kontakt',
+    },
+    {
+        lang: 'ENG',
+        name: 'Adrian Majcher',
+        career: 'Software engineer',
+        city: 'Warszawa',
+        tel: 513354369,
+        email: 'majcherrr87@gmail.com',
+        github: 'https://github.com/majcherrr87',
+        facebook: 'https://www.facebook.com/adrian.majcher.568/',
+        linkedin: 'https://www.linkedin.com/in/adrian-majcher-46a529163/',
+        bio: 'I am a novice Javascript developer specializing in backend. I am ready to take on new challenges.',
+        profile: 'Profile',
+        contact: 'Contact',
+    }
+];
 export const dataEdu = [
     {
         title: 'Wyższa szkoła zarządzania i Administracji',

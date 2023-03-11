@@ -4,16 +4,19 @@ import {Profile} from "./profile";
 import {Contact} from "./Contact";
 import {Social} from "./Social";
 import {Education} from "./Education";
-import {BackToHomePage} from "./BackToHomePage";
+import {langTxt} from "../../../assets/assets";
 
-export const LeftSection = ({avatar, bio, www}) => {
+
+export const LeftSection = ({avatar, www, lang}) => {
+    const {name, career, bio,profile} = langTxt(lang, dataProfile)
+
     return (
         <>
             <section className="left-section">
                 <div className="left-content">
-                    <Profile name={dataProfile.name} career={dataProfile.career} avatar={avatar} bio={bio}/>
-                    <Contact www={www}/>
-                    <Social/>
+                    <Profile name={name} career={career} avatar={avatar} bio={bio} profile={profile}/>
+                    <Contact www={www} lang={lang}/>
+                    <Social lang={lang}/>
                     <Education/>
                 </div>
 

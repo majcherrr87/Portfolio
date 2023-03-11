@@ -4,9 +4,8 @@ import { LeftSection } from "./cv-component/left-section";
 import { RightSection } from "./cv-component/RightSection";
 import {BackToHomePage} from "./cv-component/BackToHomePage";
 
-export const Cv = () => {
+export const Cv = ({lang}) => {
     const [userAvatar, setUserAvatar] = useState('');
-    const [userBio, setUserBio] = useState('');
     const [userWww, setUserWww] = useState('');
 
     useEffect(() => {
@@ -14,7 +13,6 @@ export const Cv = () => {
             const res = await fetch(`https://api.github.com/users/majcherrr87`);
             const data = await res.json();
             setUserAvatar(data.avatar_url);
-            setUserBio(data.bio);
             setUserWww(data.blog);
         }
         fetchData();
@@ -23,9 +21,9 @@ export const Cv = () => {
     return (
         <>
             <div className='cv-container'>
-                <BackToHomePage/>
+                <BackToHomePage lang={lang}/>
                 <main className='main-content'>
-                    <LeftSection avatar={userAvatar} bio={userBio} www={userWww} />
+                    <LeftSection lang={lang} avatar={userAvatar} www={userWww} />
                     <RightSection www={userWww} />
                 </main>
             </div>
