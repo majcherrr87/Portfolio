@@ -8,14 +8,14 @@ import './header.css';
 
 
 export const Header = ({lang}) => {
-    const { hello, prof, myName, scroll, watchCv, downloadCv} = dataLang.find(tab => tab.lang === lang);
+    const { subtitle, prof, title, scroll, watchCv, downloadCv} = dataLang.find(tab => tab.lang === lang);
 
     return (
         <header>
             <div className="container header__container" id="header">
 
-                <h5>{hello}</h5>
-                <h1>{myName}</h1>
+                <h5>{subtitle}</h5>
+                <h1>{title}</h1>
                 <h5 className="text-light">{prof}</h5>
                 <CTA watchCv={watchCv} downloadCv={downloadCv}/>
                 <HeaderSocials/>

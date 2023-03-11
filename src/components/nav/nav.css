@@ -14,11 +14,16 @@ nav {
 }
 nav a {
     background: transparent;
-    padding: 0.9rem;
+    /*padding: 0.9rem;*/
+    padding: 1rem 1rem;
     border-radius: 50%;
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
+    align-items: center;
+}
+nav a svg {
+    margin: 7px;
 }
 nav a:hover {
     background: rgba(0,0,0, 0.3);
@@ -26,4 +31,11 @@ nav a:hover {
 nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
+}
+@media screen and (max-width: 600px) {
+
+    nav a {
+        padding: 5px;
+    }
+
 }

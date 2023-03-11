@@ -5,13 +5,14 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './testimonials.css';
-import {data} from './data-testimonial';
+import {data,langData} from './data-testimonial';
 
-export const Testimonials = () => {
+export const Testimonials = ({lang}) => {
+    const {title, subTitle} = langData.find(el => el.lang === lang);
     return (
         <section id='testimonials'>
-            <h5>Moi znajomi</h5>
-            <h2>Opinie</h2>
+            <h5>{subTitle}</h5>
+            <h2>{title}</h2>
 
             <Swiper
                 className="container testimonials__container"

@@ -1,9 +1,9 @@
 export const dataLang = [
     {
         id: 1,
-        lang: 'PL',
-        myName: 'Adrian Majcher',
-        hello: 'Cześć jestem',
+        lang: 'POL',
+        title: 'Adrian Majcher',
+        subtitle: 'Cześć jestem',
         prof: 'Fullstack Developer',
         downloadCv: 'Pobierz CV',
         watchCv: 'Zobacz CV',
@@ -11,9 +11,9 @@ export const dataLang = [
     },
     {
         id: 2,
-        lang: 'EN',
-        myName: 'Adrian Majcher',
-        hello: 'Hello I am',
+        lang: 'ENG',
+        title: 'Adrian Majcher',
+        subtitle: 'Hello I am',
         prof: 'Fullstack Developer',
         downloadCv: 'Download CV',
         watchCv: 'Watch CV',

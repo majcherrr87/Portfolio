@@ -1,23 +1,24 @@
 import React from 'react';
 import './portfolio.css';
 
-import {data} from './data-portfolio';
+import {data, langTxt} from './data-portfolio';
 
-export const Portfolio = () => {
+export const Portfolio = ({lang}) => {
+    const {title, subTitle, names} = langTxt.find(el => el.lang === lang);
     return (
         <section id='portfolio'>
-            <h5>Moje przykładowe projekty</h5>
-            <h2>Portfolio</h2>
+            <h5>{subTitle}</h5>
+            <h2>{title}</h2>
 
             <div className="container portfolio__container">
                 {
-                    data.map(({id,image, title, github, demo}) => {
+                    data.map(({id,image, github, demo}, ) => {
                         return (
                             <article className="portfolio__item" key={id}>
                                 <div className="portfolio__item-image">
-                                    <img src={image} alt={title}/>
+                                    <img src={image} alt={names[id]}/>
                                 </div>
-                                <h3>{title}</h3>
+                                <h3>{names[id]}</h3>
                                 <div className="portfolio__item-cta">
                                     <a href={github} className='btn' target='_blank' rel="noopener noreferrer">Github</a>
 

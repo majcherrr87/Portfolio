@@ -9,7 +9,7 @@ import {ZamowieniaEmailView} from "./views/zamowienia-emailView";
 
 
 export const App = () => {
-    const lang = localStorage.getItem('lang') ?? localStorage.setItem('lang','PL');
+    const lang = localStorage.getItem('lang') ?? localStorage.setItem('lang','POL');
 
 
     return (

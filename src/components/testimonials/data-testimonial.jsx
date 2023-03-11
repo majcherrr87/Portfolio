@@ -3,6 +3,19 @@ import AVATAR2 from '../../assets/avatar/avatar2.jpg';
 import AVATAR3 from '../../assets/avatar/avatar3.jpg';
 import AVATAR4 from '../../assets/avatar/avatar4.jpg';
 
+export const langData = [
+    {
+      lang: 'POL',
+      title: 'Opinie',
+      subTitle: 'Moi znajomi',
+    },
+    {
+        lang: 'ENG',
+        title: 'Opinions',
+        subTitle: 'My friends',
+    },
+]
+
 export const data = [
     {
         avatar: AVATAR2,

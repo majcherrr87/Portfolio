@@ -1,6 +1,6 @@
 import React, {useRef, useState} from 'react';
 import emailjs from 'emailjs-com';
-import {data} from './data-contact';
+import {data, langData} from './data-contact';
 
 import './contact.css';
 import {MdOutlineEmail} from 'react-icons/md';
@@ -8,16 +8,18 @@ import {RiMessengerLine} from 'react-icons/ri';
 import {BsWhatsapp} from 'react-icons/bs';
 
 
-export const Contact = () => {
+export const Contact = ({lang}) => {
     const [message, setMessage] = useState('');
     const form = useRef();
+    const {title, subTitle, sendInfo, PHName, PHEmail, PHMessage, Button, SendMessage} = langData.find(el => el.lang === lang);
 
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs.sendForm('service_z03hcrd', 'template_x5pb2kr', form.current, 'BG1c2DDI-NkQ3m80R')
             .then(()=> {
-                setMessage('Wiadomość została wysłana ✅')
+
+                setMessage(SendMessage)
             })
         setTimeout(() => {
             setMessage('')
@@ -27,32 +29,32 @@ export const Contact = () => {
     };
     return (
         <section id='contact'>
-            <h5>Napisz do mnie</h5>
-            <h2>Kontakt</h2>
+            <h5>{subTitle}</h5>
+            <h2>{title}</h2>
             <div className="container contact__container">
                 <div className="contact__options">
 
-                    {data.map(({id, icon, title, link, address, info}) => {
+                    {data.map(({id, title, link, address}) => {
                       return (
                           <article key={id} className="contact__option">
-                              {id === 1 ? <MdOutlineEmail className='contact__option-icon'/> : ''}
-                              {id === 2 ? <RiMessengerLine className='contact__option-icon'/> : ''}
-                              {id === 3 ? <BsWhatsapp className='contact__option-icon'/> : ''}
+                              {id === 0 ? <MdOutlineEmail className='contact__option-icon'/> : ''}
+                              {id === 1 ? <RiMessengerLine className='contact__option-icon'/> : ''}
+                              {id === 2 ? <BsWhatsapp className='contact__option-icon'/> : ''}
                               <h4>{title}</h4>
 
                               <h5>{link}</h5>
-                              <a href={address} target="_blank" rel="noopener noreferrer">{info}</a>
+                              <a href={address} target="_blank" rel="noopener noreferrer">{sendInfo[id]}</a>
                           </article>
                       )
                     })}
 
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" name='name' placeholder='Imię i Nazwisko' required/>
-                    <input type="email" name='email' placeholder='Twój e-mail' required/>
-                    <textarea name="message" rows="7" placeholder='Wiadomość' required ></textarea>
+                    <input type="text" name='name' placeholder={PHName} required/>
+                    <input type="email" name='email' placeholder={PHEmail} required/>
+                    <textarea name="message" rows="7" placeholder={PHMessage} required ></textarea>
                     <p className="contact__message">{message}</p>
-                    <button type='submit' className='btn btn-primary'>Wyślij emila</button>
+                    <button type='submit' className='btn btn-primary'>{Button}</button>
                 </form>
             </div>
         </section>

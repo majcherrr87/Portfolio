@@ -4,15 +4,17 @@ import {BiCheck} from 'react-icons/bi';
 import {FaMedal} from "react-icons/fa";
 import {data} from './data-service';
 
-export const Services = () => {
+export const Services = ({lang}) => {
+    const card = data.filter(tab => tab.lang === lang);
     return (
         <section id='services'>
-            <h5>Kursy</h5>
-            <h2>Zdobyte doświadczenia</h2>
+            <h5>{card[0].subtitle}</h5>
+            <h2>{card[0].title}</h2>
+
 
             <div className="container services__container">
 
-                {data.map(({id,logo, description,link, skill, certificate }) => {
+                {card.map(({id,logo, description,link, skill, certificate }) => {
                     return (
                         <article key={id} className="service">
                             <div className="service__head">

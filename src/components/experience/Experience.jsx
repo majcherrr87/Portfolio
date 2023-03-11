@@ -2,14 +2,16 @@ import React from 'react';
 
 import './experience.css';
 
-import {dataFront, dataBack} from './data-experience';
+import {dataFront, dataBack, langTitle} from './data-experience';
 
 
-export const Experience = () => {
+export const Experience = ({lang}) => {
+    const txtTitle = langTitle.find(el => el.lang === lang);
+
     return (
         <section id='experience'>
-            <h5>Skills</h5>
-            <h2>Moje umiejętności</h2>
+            <h5>{txtTitle.subTitle}</h5>
+            <h2>{txtTitle.title}</h2>
 
             <div className="container experience__container">
                 <div className="experience__frontend">
@@ -22,7 +24,7 @@ export const Experience = () => {
                                     <img className='tech_stack_icon' src={logo} alt={name}/>
                                     <div>
                                         <h4>{name}</h4>
-                                        <small className="text-light">{skill}</small>
+                                        <small className="text-light">{txtTitle[skill]}</small>
                                     </div>
                                 </article>
                             )
@@ -42,7 +44,7 @@ export const Experience = () => {
                                     <img className='tech_stack_icon' src={logo} alt={name}/>
                                     <div>
                                         <h4>{name}</h4>
-                                        <small className="text-light">{skill}</small>
+                                        <small className="text-light">{txtTitle[skill]}</small>
                                     </div>
                                 </article>
                             )
