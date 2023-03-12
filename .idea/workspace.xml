@@ -7,14 +7,34 @@
     <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/CV_AdrianMajcher.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/assets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/assets.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cv/Cv.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/Cv.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/BackToHomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/BackToHomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/Certificates.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/Certificates.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/Education.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/Education.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/Experience.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/RightSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/RightSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/Social.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/Social.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/left-section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/left-section.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cv/cv-component/profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/cv-component/profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cv/data-cv.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cv/data-cv.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/experience/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/Experience.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/CTA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/CTA.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testimonials/Testimonials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/Testimonials.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/zamowieniaEmail/ZamowieniaEmail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/zamowieniaEmail/ZamowieniaEmail.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/CvView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CvView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/PortfolioView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/PortfolioView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/zamowienia-emailView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/zamowienia-emailView.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +163,8 @@
       <workItem from="1669714715524" duration="6391000" />
       <workItem from="1669811730584" duration="2443000" />
       <workItem from="1678292241800" duration="14923000" />
-      <workItem from="1678542166518" duration="22790000" />
+      <workItem from="1678542166518" duration="23031000" />
+      <workItem from="1678621970302" duration="12295000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -362,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678574462671</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="start to add english in CV component">
+      <created>1678578836874</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1678578836874</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finish Experience components" />
     <MESSAGE value="Finish Services components" />
     <MESSAGE value="Added dwo new conponent portfolio and testimonial" />
     <MESSAGE value="Added new component Contact" />
@@ -405,6 +432,7 @@
     <MESSAGE value="start add eng version" />
     <MESSAGE value="one component is finish" />
     <MESSAGE value="pade have english text" />
-    <option name="LAST_COMMIT_MESSAGE" value="pade have english text" />
+    <MESSAGE value="start to add english in CV component" />
+    <option name="LAST_COMMIT_MESSAGE" value="start to add english in CV component" />
   </component>
 </project>

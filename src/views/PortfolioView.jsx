@@ -11,18 +11,18 @@ import {Footer} from "../components/footer/Footer";
 import '../index.css';
 
 
-export const PortfolioView = ({lang}) => {
+export const PortfolioView = () => {
     return (
         <>
-            <Header lang={lang} />
-            <Nav lang={lang}/>
-            <About lang={lang}/>
-            <Services lang={lang}/>
-            <Experience lang={lang}/>
-            <Portfolio lang={lang}/>
-            <Testimonials lang={lang}/>
-            <Contact lang={lang}/>
-            <Footer lang={lang}/>
+            <Header  />
+            <Nav />
+            <About />
+            <Services />
+            <Experience />
+            <Portfolio />
+            <Testimonials />
+            <Contact />
+            <Footer />
         </>
     )
 };

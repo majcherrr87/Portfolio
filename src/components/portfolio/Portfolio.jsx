@@ -1,10 +1,11 @@
 import React from 'react';
+import {data, dataLang} from './data-portfolio';
+import {selectLang} from "../../assets/assets";
+
 import './portfolio.css';
 
-import {data, langTxt} from './data-portfolio';
-
-export const Portfolio = ({lang}) => {
-    const {title, subTitle, names} = langTxt.find(el => el.lang === lang);
+export const Portfolio = () => {
+    const {title, subTitle, names} = selectLang(dataLang)
     return (
         <section id='portfolio'>
             <h5>{subTitle}</h5>

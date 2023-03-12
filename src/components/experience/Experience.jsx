@@ -3,10 +3,11 @@ import React from 'react';
 import './experience.css';
 
 import {dataFront, dataBack, langTitle} from './data-experience';
+import {selectLang} from "../../assets/assets";
 
 
-export const Experience = ({lang}) => {
-    const txtTitle = langTitle.find(el => el.lang === lang);
+export const Experience = () => {
+    const txtTitle = selectLang(langTitle)
 
     return (
         <section id='experience'>

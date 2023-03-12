@@ -1,17 +1,18 @@
 import React, {useRef, useState} from 'react';
 import emailjs from 'emailjs-com';
 import {data, langData} from './data-contact';
-
-import './contact.css';
 import {MdOutlineEmail} from 'react-icons/md';
 import {RiMessengerLine} from 'react-icons/ri';
 import {BsWhatsapp} from 'react-icons/bs';
+import {selectLang} from "../../assets/assets";
+
+import './contact.css';
 
 
-export const Contact = ({lang}) => {
+export const Contact = () => {
     const [message, setMessage] = useState('');
     const form = useRef();
-    const {title, subTitle, sendInfo, PHName, PHEmail, PHMessage, Button, SendMessage} = langData.find(el => el.lang === lang);
+    const {title, subTitle, sendInfo, PHName, PHEmail, PHMessage, Button, SendMessage} = selectLang(langData);
 
     const sendEmail = (e) => {
         e.preventDefault();

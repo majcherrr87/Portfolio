@@ -1,14 +1,16 @@
 import {BiCheck} from "react-icons/bi";
 import React from "react";
 import {dataExperience} from '../data-cv';
+import {selectLang} from "../../../assets/assets";
 
 export const Experience = () => {
+    const data = selectLang(dataExperience, true);
     return (
         <>
             <section className="experience sect">
-                <h2 className="right-title small">Kursy i szkolenia</h2>
+                <h2 className="right-title small">{data[0].subject}</h2>
 
-                {dataExperience.map(({id, logo, title, para, li}) => {
+                {data.map(({id, logo, title, para, li}) => {
                     return (
                         <>
                             <div className="timeline" key={id}>

@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 
 
 
-export const BackToHomePage = ({lang}) => {
+export const BackToHomePage = () => {
+    const lang = localStorage.getItem('lang');
     return (
         <>
             <Link to='/'>

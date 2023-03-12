@@ -2,13 +2,14 @@ import React from 'react';
 import {CTA} from './CTA';
 import {HeaderSocials} from "./HeaderSocials";
 import{dataLang} from './data-lang-Header'
+import {selectLang} from "../../assets/assets";
 
 import ME from '../../assets/Adrian.png';
 import './header.css';
 
 
-export const Header = ({lang}) => {
-    const { subtitle, prof, title, scroll, watchCv, downloadCv} = dataLang.find(tab => tab.lang === lang);
+export const Header = () => {
+    const { subtitle, prof, title, scroll, watchCv, downloadCv} = selectLang(dataLang);
 
     return (
         <header>

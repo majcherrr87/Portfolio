@@ -3,10 +3,10 @@ import {GrFacebook} from "react-icons/gr";
 import {BsLinkedin} from "react-icons/bs";
 import React from "react";
 import {dataProfile} from "../data-cv";
-import {langTxt} from "../../../assets/assets";
+import {selectLang} from "../../../assets/assets";
 
-export const Social = ({lang}) => {
-    const {github, facebook, linkedin} = langTxt(lang, dataProfile)
+export const Social = () => {
+    const {github, facebook, linkedin} = selectLang(dataProfile)
     return (
         <>
             <div className="contact-info">

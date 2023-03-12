@@ -1,12 +1,14 @@
 import React from "react";
 import {dataProjects} from "../data-cv";
+import {selectLang} from "../../../assets/assets";
 
 export const Projects = ({www}) => {
+    const data = selectLang(dataProjects,true);
     return (
         <section className="education sect">
-            <h2 className="right-title">Projekty</h2>
+            <h2 className="right-title">{data[0].subject}</h2>
             {
-                dataProjects.map(({title, para, link},index) => {
+                data.map(({title, para, link},index) => {
                     return (
                         <div className="proj-content" key={index}>
                             <h5 className="tl-title-2 proj">{title}</h5>

@@ -3,7 +3,7 @@ import IMG2 from '../../assets/portfolio/barn.gif';
 import IMG3 from '../../assets/portfolio/zamowienia.gif';
 import IMG4 from '../../assets/portfolio/portfolio4.jpg';
 
-export const langTxt = [
+export const dataLang = [
     {
         lang: 'POL',
         title: 'Portfolio',

@@ -1,15 +1,15 @@
 import React from 'react';
 import {data} from "./data-footer";
-
-import './footer.css';
-
 import {BsLinkedin} from 'react-icons/bs';
 import {FaGithub} from 'react-icons/fa';
 import {GrFacebook} from 'react-icons/gr';
+import {selectLang} from "../../assets/assets";
+
+import './footer.css';
 
 
-export const Footer = ({lang}) => {
-    const {home, about, courses, skills, portfolio, opinions, contact, copyright} = data.find(el => el.lang === lang);
+export const Footer = () => {
+    const {home, about, courses, skills, portfolio, opinions, contact, copyright} = selectLang(data);
     return (
         <footer>
             <a href="#header" className='footer__logo'>Adrian Majcher</a>

@@ -6,9 +6,10 @@ import {BiTerminal} from 'react-icons/bi';
 import {VscFolderLibrary} from 'react-icons/vsc';
 import ME from '../../assets/Adrian2.jpg';
 import {dataLang} from "../about/data-lang-about";
+import {selectLang} from "../../assets/assets";
 
-export const About = ({lang}) => {
-    const {title, subtitle, description, button, cardTitle1, cardSubtitle1, cardTitle2, cardSubtitle2, cardTitle3, cardSubtitle3} = dataLang.find(tab => tab.lang === lang);
+export const About = () => {
+    const {title, subtitle, description, button, cardTitle1, cardSubtitle1, cardTitle2, cardSubtitle2, cardTitle3, cardSubtitle3} = selectLang(dataLang)
     return (
         <section id='about'>
             <h5>{subtitle}</h5>

@@ -2,10 +2,10 @@ import {HiOutlineLocationMarker, HiOutlineMailOpen} from "react-icons/hi";
 import {BsGlobe, BsTelephone} from "react-icons/bs";
 import React from "react";
 import {dataProfile} from "../data-cv";
-import {langTxt} from "../../../assets/assets";
+import {selectLang} from "../../../assets/assets";
 
-export const Contact = ({www, lang}) => {
-    const {city, tel, email, contact} = langTxt(lang, dataProfile)
+export const Contact = ({www }) => {
+    const {city, tel, email, contact} = selectLang(dataProfile)
     return (
         <>
             <div className="contact-info">

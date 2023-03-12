@@ -10,9 +10,9 @@ export const RightSection = ({www}) => {
             <section className="right-section">
                 <div className="right-main-content">
                     <TechStack/>
-                    <Experience/>
-                    <Projects www={www}/>
-                    <Certificates/>
+                    <Experience />
+                    <Projects  www={www}/>
+                    <Certificates />
                 </div>
             </section>
         </>

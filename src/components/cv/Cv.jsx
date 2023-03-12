@@ -4,7 +4,7 @@ import { LeftSection } from "./cv-component/left-section";
 import { RightSection } from "./cv-component/RightSection";
 import {BackToHomePage} from "./cv-component/BackToHomePage";
 
-export const Cv = ({lang}) => {
+export const Cv = () => {
     const [userAvatar, setUserAvatar] = useState('');
     const [userWww, setUserWww] = useState('');
 
@@ -21,9 +21,9 @@ export const Cv = ({lang}) => {
     return (
         <>
             <div className='cv-container'>
-                <BackToHomePage lang={lang}/>
+                <BackToHomePage />
                 <main className='main-content'>
-                    <LeftSection lang={lang} avatar={userAvatar} www={userWww} />
+                    <LeftSection avatar={userAvatar} www={userWww} />
                     <RightSection www={userWww} />
                 </main>
             </div>

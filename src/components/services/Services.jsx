@@ -3,9 +3,10 @@ import './services.css';
 import {BiCheck} from 'react-icons/bi';
 import {FaMedal} from "react-icons/fa";
 import {data} from './data-service';
+import {selectLang} from "../../assets/assets";
 
-export const Services = ({lang}) => {
-    const card = data.filter(tab => tab.lang === lang);
+export const Services = () => {
+    const card = selectLang(data, true);
     return (
         <section id='services'>
             <h5>{card[0].subtitle}</h5>
