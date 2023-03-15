@@ -1,41 +1,89 @@
-nav {
-    background: rgba(0, 0, 0,  0.3);
-    width: max-content;
-    padding: 0.7rem 1.7rem;
-    z-index: 2;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 2rem;
-    display: flex;
-    gap:0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
+.navbar-container {
+    background: white;
+    border-radius: .5em;
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 0 1.5rem;
 }
-nav a {
-    background: transparent;
-    /*padding: 0.9rem;*/
-    padding: 1rem 1rem;
-    border-radius: 50%;
+
+.nav-list {
     display: flex;
-    color: var(--color-light);
-    font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-list .icon>img{
+    fill: currentColor;
+    width: 1.5em;
+    height: 1.5em;
+}
+.nav-list .text {
+    font-size: .8em;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 500ms ease-in-out;
+}
+.nav-list a {
+    color: #333;
+    text-decoration: none;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-nav a svg {
-    margin: 7px;
-}
-nav a:hover {
-    background: rgba(0,0,0, 0.3);
-}
-nav a.active {
-    background: var(--color-primary);
-    color: var(--color-bg);
-}
-@media screen and (max-width: 600px) {
-
-    nav a {
-        padding: 5px;
-    }
+.nav-list .active .text{
+    pointer-events: all;
+    opacity: 1;
 
 }
+
+.nav-list .active .icon{
+    background: green;
+    padding: 1em;
+}
+
+
+
+
+
+/*nav {*/
+/*    background: rgba(0, 0, 0,  0.3);*/
+/*    width: max-content;*/
+/*    padding: 0.7rem 1.7rem;*/
+/*    z-index: 2;*/
+/*    position: fixed;*/
+/*    left: 50%;*/
+/*    transform: translateX(-50%);*/
+/*    bottom: 2rem;*/
+/*    display: flex;*/
+/*    gap:0.8rem;*/
+/*    border-radius: 3rem;*/
+/*    backdrop-filter: blur(15px);*/
+/*}*/
+/*nav a {*/
+/*    background: transparent;*/
+/*    !*padding: 0.9rem;*!*/
+/*    padding: 1rem 1rem;*/
+/*    border-radius: 50%;*/
+/*    display: flex;*/
+/*    color: var(--color-light);*/
+/*    font-size: 1.1rem;*/
+/*    align-items: center;*/
+/*}*/
+/*nav a svg {*/
+/*    margin: 7px;*/
+/*}*/
+/*nav a:hover {*/
+/*    background: rgba(0,0,0, 0.3);*/
+/*}*/
+/*nav a.active {*/
+/*    background: var(--color-primary);*/
+/*    color: var(--color-bg);*/
+/*}*/
+/*@media screen and (max-width: 600px) {*/
+
+/*    nav a {*/
+/*        padding: 5px;*/
+/*    }*/
+
+/*}*/
