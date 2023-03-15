@@ -44,12 +44,13 @@ export const Nav = () => {
                    className={activeNav === '#contact' ? 'active' : ''}>
                     <BiMessageSquareDetail/>
                 </a>
+                
                 <a href="/"
+
                    title='change language'
                    onClick={() => localStorage.setItem('lang', changeLang)}
                 >
                     {changeLang}
-
                 </a>
             </nav>
         </div>
