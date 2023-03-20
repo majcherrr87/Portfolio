@@ -2,6 +2,10 @@ import React, {useState} from 'react';
 
 import './nav.css';
 import home from '../../assets/svg/home.svg'
+import message from '../../assets/svg/message.svg'
+import about from '../../assets/svg/about.svg'
+import skills from '../../assets/svg/skills.svg'
+import portfolio from '../../assets/svg/portfolio.svg'
 import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai';
 import {FiBook} from "react-icons/fi";
 import {RiServiceLine} from "react-icons/ri";
@@ -16,7 +20,8 @@ export const Nav = () => {
     if (indicator != null){
         indicator.style.setProperty('--position', activeNav.index);
     }
-
+    const kot = document.getElementById('header');
+    console.log(kot)
 
     return (
         <div>
@@ -32,37 +37,37 @@ export const Nav = () => {
                         <div className='text'>Home</div>
                     </a></li>
 
-                    <li onClick={() => setActiveNav({name: '#about', index: 1})} className={activeNav.name === '#about' ? 'active' : ''}><a href="#">
+                    <li onClick={() => setActiveNav({name: '#about', index: 1})} className={activeNav.name === '#about' ? 'active' : ''}><a href="#about">
                         <div className='icon'>
-                            <img src={home} alt="home"/>
+                            <img src={about} alt="home"/>
                         </div>
                         <div className='text'>About</div>
                     </a></li>
 
-                    <li onClick={() => setActiveNav({name: '#experience', index: 2})} className={activeNav.name === '#experience' ? 'active' : ''}><a href="#">
+                    <li onClick={() => setActiveNav({name: '#experience', index: 2})} className={activeNav.name === '#experience' ? 'active' : ''}><a href="#experience">
                         <div className='icon'>
-                            <img src={home} alt="home"/>
+                            <img src={skills} alt="home"/>
                         </div>
                         <div className='text'>Experience</div>
                     </a></li>
 
-                    <li onClick={() => setActiveNav({name: '#portfolio', index: 3})} className={activeNav.name === '#portfolio' ? 'active' : ''}><a href="#">
+                    <li onClick={() => setActiveNav({name: '#portfolio', index: 3})} className={activeNav.name === '#portfolio' ? 'active' : ''}><a href="#portfolio">
                         <div className='icon'>
-                            <img src={home} alt="home"/>
+                            <img src={portfolio} alt="home"/>
                         </div>
                         <div className='text'>Portfolio</div>
                     </a></li>
 
-                    <li onClick={() => setActiveNav({name: '#contact', index: 4})} className={activeNav.name === '#contact' ? 'active' : ''}><a href="#">
+                    <li onClick={() => setActiveNav({name: '#contact', index: 4})} className={activeNav.name === '#contact' ? 'active' : ''}><a href="#contact">
                         <div className='icon'>
-                            <img src={home} alt="home"/>
+                            <img src={message} alt="home"/>
                         </div>
                         <div className='text'>Contact</div>
                     </a></li>
 
-                    <li onClick={() => setActiveNav({name: '#language', index: 5})} className={activeNav.name === '#language' ? 'active' : ''}><a href="#">
+                    <li onClick={() =>  localStorage.setItem('lang', changeLang)} className={activeNav.name === '#language' ? 'active' : ''}><a href="/">
                         <div className='icon'>
-                            <img src={home} alt="home"/>
+                            {changeLang}
                         </div>
                         <div className='text'>Language</div>
                     </a></li>

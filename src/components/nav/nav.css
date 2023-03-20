@@ -3,7 +3,7 @@
     --indicator-spacing: calc(var(--icon-size) / 8);
     --border-radius: calc(var(--icon-size) / 4);
     --nav-item-padding: calc(var(--icon-size)/2);
-    --background-color: rgb(33, 33, 49);
+    --background-color: rgba(33, 33, 49, 0.15);
 }
 
 .navbar-container {
