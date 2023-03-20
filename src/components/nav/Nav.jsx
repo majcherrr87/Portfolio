@@ -8,55 +8,59 @@ import {RiServiceLine} from "react-icons/ri";
 import {BiMessageSquareDetail} from "react-icons/bi";
 
 export const Nav = () => {
-    const [activeNav, setActiveNav] = useState('#');
+    const [activeNav, setActiveNav] = useState({name: '#', index: 0});
     const lang = localStorage.getItem('lang');
     const changeLang = lang === 'POL' ? 'ENG' : 'POL';
+    const indicator = document.querySelector('[data-indicator]');
+
+    if (indicator != null){
+        indicator.style.setProperty('--position', activeNav.index);
+    }
 
 
-// TODO: 'https://www.youtube.com/watch?v=YaONowiQKW8&t=480s 53:39'
     return (
         <div>
             <nav className='navbar-container'>
                 <ul className='nav-list'>
-                    <div className="indicator">
+                    <div data-indicator className="indicator">
                         <div className="corners"></div>
                     </div>
-                    <li onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><a href="#">
+                    <li onClick={() => setActiveNav({name: '#', index: 0})} className={activeNav.name === '#' ? 'active' : ''}><a href="#">
                         <div className='icon'>
                             <img src={home} alt="home"/>
                         </div>
                         <div className='text'>Home</div>
                     </a></li>
 
-                    <li onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><a href="#">
+                    <li onClick={() => setActiveNav({name: '#about', index: 1})} className={activeNav.name === '#about' ? 'active' : ''}><a href="#">
                         <div className='icon'>
                             <img src={home} alt="home"/>
                         </div>
                         <div className='text'>About</div>
                     </a></li>
 
-                    <li onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><a href="#">
+                    <li onClick={() => setActiveNav({name: '#experience', index: 2})} className={activeNav.name === '#experience' ? 'active' : ''}><a href="#">
                         <div className='icon'>
                             <img src={home} alt="home"/>
                         </div>
                         <div className='text'>Experience</div>
                     </a></li>
 
-                    <li onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><a href="#">
+                    <li onClick={() => setActiveNav({name: '#portfolio', index: 3})} className={activeNav.name === '#portfolio' ? 'active' : ''}><a href="#">
                         <div className='icon'>
                             <img src={home} alt="home"/>
                         </div>
                         <div className='text'>Portfolio</div>
                     </a></li>
 
-                    <li onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><a href="#">
+                    <li onClick={() => setActiveNav({name: '#contact', index: 4})} className={activeNav.name === '#contact' ? 'active' : ''}><a href="#">
                         <div className='icon'>
                             <img src={home} alt="home"/>
                         </div>
                         <div className='text'>Contact</div>
                     </a></li>
 
-                    <li onClick={() => setActiveNav('#language')} className={activeNav === '#language' ? 'active' : ''}><a href="#">
+                    <li onClick={() => setActiveNav({name: '#language', index: 5})} className={activeNav.name === '#language' ? 'active' : ''}><a href="#">
                         <div className='icon'>
                             <img src={home} alt="home"/>
                         </div>

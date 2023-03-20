@@ -1,0 +1,357 @@
+Index: src/components/nav/Nav.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/nav/Nav.jsx b/src/components/nav/Nav.jsx
+--- a/src/components/nav/Nav.jsx	
++++ b/src/components/nav/Nav.jsx	
+@@ -8,55 +8,62 @@
+ import {BiMessageSquareDetail} from "react-icons/bi";
+ 
+ export const Nav = () => {
+-    const [activeNav, setActiveNav] = useState('#');
++    const [activeNav, setActiveNav] = useState({name: '#', index: 0});
+     const lang = localStorage.getItem('lang');
+     const changeLang = lang === 'POL' ? 'ENG' : 'POL';
++    const indicator = document.querySelector('[data-indicator]');
++
++    if (indicator != null) {
++        indicator.style.setProperty("--position", activeNav.index)
++    }
+ 
+ 
+-// TODO: 'https://www.youtube.com/watch?v=YaONowiQKW8&t=480s 53:39'
++
++
+     return (
+         <div>
+             <nav className='navbar-container'>
+                 <ul className='nav-list'>
+-                    <div className="indicator">
++                    <div   data-indicator='true' className="indicator">
+                         <div className="corners"></div>
+                     </div>
+-                    <li onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><a href="#">
++
++                    <li onClick={() => setActiveNav({name: '#', index: 0})} className={activeNav.name === '#' ? 'active' : ''} ><a href="#">
+                         <div className='icon'>
+                             <img src={home} alt="home"/>
+                         </div>
+                         <div className='text'>Home</div>
+                     </a></li>
+ 
+-                    <li onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><a href="#">
++                    <li onClick={() => setActiveNav({name: '#about', index: 1})} className={activeNav.name === '#about' ? 'active' : ''}><a href="#">
+                         <div className='icon'>
+                             <img src={home} alt="home"/>
+                         </div>
+                         <div className='text'>About</div>
+                     </a></li>
+ 
+-                    <li onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><a href="#">
++                    <li onClick={() => setActiveNav({name: '#experience', index: 2})} className={activeNav.name === '#experience' ? 'active' : ''}><a href="#">
+                         <div className='icon'>
+                             <img src={home} alt="home"/>
+                         </div>
+                         <div className='text'>Experience</div>
+                     </a></li>
+ 
+-                    <li onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><a href="#">
++                    <li onClick={() => setActiveNav({name: '#portfolio', index: 3})} className={activeNav.name === '#portfolio' ? 'active' : ''}><a href="#">
+                         <div className='icon'>
+                             <img src={home} alt="home"/>
+                         </div>
+                         <div className='text'>Portfolio</div>
+                     </a></li>
+ 
+-                    <li onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><a href="#">
++                    <li onClick={() => setActiveNav({name: '#contact', index: 4})} className={activeNav.name === '#contact' ? 'active' : ''}><a href="#">
+                         <div className='icon'>
+                             <img src={home} alt="home"/>
+                         </div>
+                         <div className='text'>Contact</div>
+                     </a></li>
+ 
+-                    <li onClick={() => setActiveNav('#language')} className={activeNav === '#language' ? 'active' : ''}><a href="#">
++                    <li onClick={() => setActiveNav({name: '#language', index: 5})} className={activeNav.name === '#language' ? 'active' : ''}><a href="#">
+                         <div className='icon'>
+                             <img src={home} alt="home"/>
+                         </div>
+Index: src/views/PortfolioView.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/views/PortfolioView.jsx b/src/views/PortfolioView.jsx
+--- a/src/views/PortfolioView.jsx	
++++ b/src/views/PortfolioView.jsx	
+@@ -1,4 +1,4 @@
+-import React, {useState} from 'react'
++import React from 'react'
+ import {Header} from "../components/header/Header";
+ import {Nav} from "../components/nav/Nav";
+ import {About} from "../components/about/About";
+Index: src/components/nav/nav.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/nav/nav.css b/src/components/nav/nav.css
+--- a/src/components/nav/nav.css	
++++ b/src/components/nav/nav.css	
+@@ -3,7 +3,7 @@
+     --indicator-spacing: calc(var(--icon-size) / 8);
+     --border-radius: calc(var(--icon-size) / 4);
+     --nav-item-padding: calc(var(--icon-size)/2);
+-    --background-color: #1f1f38;
++    --background-color: rgb(44, 44, 108);
+ }
+ 
+ .navbar-container {
+@@ -12,7 +12,15 @@
+     max-width: max-content;
+     margin: 0 auto;
+     padding: 0 calc(var(--nav-item-padding) * 1.5);
+-    /*border: var(--indicator-spacing) solid var(--background-color);*/
++        background: rgba(0, 0, 0,  0.3);
++        z-index: 3;
++        position: fixed;
++        left: 50%;
++        transform: translateX(-50%);
++        bottom: 2rem;
++        display: flex;
++    /*    gap:0.8rem;*/
++        backdrop-filter: blur(15px);
+ }
+ 
+ .nav-list {
+@@ -22,7 +30,7 @@
+     list-style: none;
+ }
+ .nav-list a {
+-    color: #333;
++    color: #ffffff;
+     text-decoration: none;
+     display: flex;
+     flex-direction: column;
+@@ -33,13 +41,14 @@
+     font-size: .8em;
+     opacity: 0;
+     pointer-events: none;
+-    transition:  500ms ease-in-out;
++    transition:  250ms ease-in-out;
+     position: absolute;
+     bottom: calc(.5 * var(--nav-item-padding));
+     transform: translateY(50%);
+ }
+ .nav-list .icon {
+     position: relative;
++    transition: 250ms ease-in-out;
+ }
+ .nav-list .icon > img{
+     fill: currentColor;
+@@ -56,91 +65,36 @@
+     transform: translateY(calc(-50% - var(--nav-item-padding)));
+ }
+ 
+-.nav-list .active .icon::after,
+-.nav-list .active .icon::before{
+-    content: '';
+-    position: absolute;
+-    z-index: -1;
+-    border-radius: 100%;
+-}
+-.nav-list .active .icon::after{
+-    background: hsl(100,100%,50%);
+-    width: calc(var(--icon-size) * 2);
+-    height: calc(var(--icon-size) * 2);
+-    top: calc(-.5 * var(--icon-size));
+-    left: calc(-.5 * var(--icon-size));
+-}
+-.nav-list .active .icon::before{
+-    background: var(--background-color);
+-    width: calc((var(--icon-size) + var(--indicator-spacing)) * 2);
+-    height: calc((var(--icon-size) + var(--indicator-spacing)) * 2);
+-    top: calc(-.5 * var(--icon-size) - var(--indicator-spacing));
+-    left: calc(-.5 * var(--icon-size) - var(--indicator-spacing));
+-}
+-.nav-list .active{
++.nav-list{
+     position: relative;
+ }
+-
+-.nav-list .active::before{
+-    content: '';
+-    box-sizing: content-box;
++.indicator{
+     position: absolute;
+-    width: var(--border-radius);
+-    height: var(--border-radius);
+-    background-color: white;
+-    z-index: 1;
+-    top: calc(-1 * var(--indicator-spacing));
+-    left: calc(.15 * var(--indicator-spacing));
+-    transform: translateX(-100%);
+-    border-top-right-radius: 100%;
+-    border-width: calc(var(--indicator-spacing));
+-    border-color: var(--background-color);
+-    border-style: solid;
+-    border-left: none;
+-    border-bottom: none;
+-}
+-.nav-list .active::after{
+-    content: '';
+-    box-sizing: content-box;
+-    position: absolute;
+-    width: var(--border-radius);
+-    height: var(--border-radius);
+-    background-color: white;
+-    z-index: 1;
+-    top: calc(-1 * var(--indicator-spacing));
+-    right: calc(.15 * var(--indicator-spacing));
+-    transform: translateX(100%);
+-    border-top-left-radius: 100%;
+-    border-width: calc(var(--indicator-spacing));
+-    border-color: var(--background-color);
+-    border-style: solid;
+-    border-right: none;
+-    border-bottom: none;
++    left: calc(var(--position) * (var(--icon-size) + var(--nav-item-padding) * 2));
++    transition: 250ms ease-in-out;
+ }
+-.navbar-container{
+-    position: relative;
+-}
++
++
+ .indicator::after,
+ .indicator::before{
+     content: '';
+     position: absolute;
+-    z-index: -1;
+     border-radius: 100%;
+ }
+ .indicator::after{
+-    background: hsl(100,100%,50%);
++    background: hsl(205, 99%, 65%);
+     width: calc(var(--icon-size) * 2);
+     height: calc(var(--icon-size) * 2);
+-    top: calc(-.5 * var(--icon-size));
+-    left: calc(-.5 * var(--icon-size));
++    top: calc(-1 * var(--icon-size));
+ }
+ .indicator::before{
+     background: var(--background-color);
+     width: calc((var(--icon-size) + var(--indicator-spacing)) * 2);
+     height: calc((var(--icon-size) + var(--indicator-spacing)) * 2);
+-    top: calc(-.5 * var(--icon-size) - var(--indicator-spacing));
+-    left: calc(-.5 * var(--icon-size) - var(--indicator-spacing));
++    top: calc(-1 * var(--icon-size) - var(--indicator-spacing));
++    left: calc(-1 * var(--indicator-spacing));
+ }
++
+ 
+ 
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -6,9 +6,9 @@
+   <component name="ChangeListManager">
+     <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.jsx" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/components/nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/views/PortfolioView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/PortfolioView.jsx" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -34,22 +34,22 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "last_opened_file_path": "C:/xampp/htdocs/FDF/FDF_Najlepsza",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "preferences.lookFeel",
+-    "ts.external.directory.path": "C:\\Users\\Kot i Miś\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.4167.31\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/FDF/FDF_Najlepsza&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
++    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Kot i Miś\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.4167.31\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\portfolio" />
+@@ -148,7 +148,8 @@
+       <workItem from="1678542166518" duration="23031000" />
+       <workItem from="1678621970302" duration="17025000" />
+       <workItem from="1678879285077" duration="5832000" />
+-      <workItem from="1678987569422" duration="13384000" />
++      <workItem from="1678987569422" duration="13573000" />
++      <workItem from="1679306648039" duration="9433000" />
+     </task>
+     <task id="LOCAL-00001" summary="Added components">
+       <created>1654180616576</created>
+@@ -388,7 +389,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1678880516801</updated>
+     </task>
+-    <option name="localTasksCounter" value="35" />
++    <task id="LOCAL-00035" summary="add new look to navbar">
++      <created>1679010348337</created>
++      <option name="number" value="00035" />
++      <option name="presentableId" value="LOCAL-00035" />
++      <option name="project" value="LOCAL" />
++      <updated>1679010348337</updated>
++    </task>
++    <option name="localTasksCounter" value="36" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -418,7 +426,6 @@
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+-    <MESSAGE value="Added dwo new conponent portfolio and testimonial" />
+     <MESSAGE value="Added new component Contact" />
+     <MESSAGE value="finish component Contact" />
+     <MESSAGE value="finish all page" />
+@@ -443,6 +450,7 @@
+     <MESSAGE value="pade have english text" />
+     <MESSAGE value="start to add english in CV component" />
+     <MESSAGE value="finish my page have english version" />
+-    <option name="LAST_COMMIT_MESSAGE" value="finish my page have english version" />
++    <MESSAGE value="add new look to navbar" />
++    <option name="LAST_COMMIT_MESSAGE" value="add new look to navbar" />
+   </component>
+ </project>
+\ No newline at end of file
