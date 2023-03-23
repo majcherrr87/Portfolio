@@ -7,7 +7,7 @@ import aboutIco from '../../assets/svg/aboutIco.svg'
 import skills from '../../assets/svg/skills.svg'
 import portfolioIco from '../../assets/svg/portfolioIco.svg'
 import {selectLang} from "../../assets/assets";
-import {DataLangNav} from '../nav/data-lang-nav';
+import {DataLangNav} from './data-lang-nav';
 
 export const Nav = () => {
     const [activeNav, setActiveNav] = useState({name: '#header', index: 0});
