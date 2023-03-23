@@ -1,4 +1,4 @@
-import React, {lazy} from 'react'
+import React from 'react'
 import {Route, Routes} from "react-router-dom";
 import {PortfolioView} from "./views/PortfolioView";
 import {CvView} from "./views/CvView";

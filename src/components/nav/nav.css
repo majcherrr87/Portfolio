@@ -1,41 +1,139 @@
-nav {
-    background: rgba(0, 0, 0,  0.3);
-    width: max-content;
-    padding: 0.7rem 1.7rem;
-    z-index: 2;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 2rem;
-    display: flex;
-    gap:0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
+:root {
+    --icon-size: 2rem;
+    --indicator-spacing: calc(var(--icon-size) / 8);
+    --border-radius: calc(var(--icon-size) / 4);
+    --nav-item-padding: calc(var(--icon-size)/2);
+    --background-color: rgba(33, 33, 49, 0.15);
 }
-nav a {
-    background: transparent;
-    /*padding: 0.9rem;*/
-    padding: 1rem 1rem;
-    border-radius: 50%;
+
+.navbar-container {
+    background: white;
+    border-radius: var(--border-radius);
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 0 calc(var(--nav-item-padding) * 1.5);
+        background: rgba(0, 0, 0, 0.2);
+    /*    width: max-content;*/
+    /*    padding: 0.7rem 1.7rem;*/
+        z-index: 2;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 2rem;
+        display: flex;
+    /*    gap:0.8rem;*/
+    /*    border-radius: 3rem;*/
+        backdrop-filter: blur(15px);
+    border: var(--indicator-spacing) solid var(--background-color);
+}
+
+.nav-list {
     display: flex;
-    color: var(--color-light);
-    font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-list a {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    padding: var(--nav-item-padding);
 }
-nav a svg {
-    margin: 7px;
+.nav-list .text {
+    font-size: .8em;
+    opacity: 0;
+    pointer-events: none;
+    transition:  250ms ease-in-out;
+    position: absolute;
+    bottom: calc(.5 * var(--nav-item-padding));
+    transform: translateY(50%);
 }
-nav a:hover {
-    background: rgba(0,0,0, 0.3);
+.nav-list .icon {
+    position: relative;
+    transition:  250ms ease-in-out;
 }
-nav a.active {
+.nav-list .icon > img{
+    fill: currentColor;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    display: block;
+}
+.nav-list .active .text{
+    pointer-events: all;
+    opacity: 1;
+    transform: translateY(0);
+}
+.nav-list .active .icon{
+    transform: translateY(calc(-50% - var(--nav-item-padding)));
+}
+
+.nav-list{
+    position: relative;
+}
+.indicator{
+    position: absolute;
+    left: calc(var(--position, 0) * (var(--icon-size) + var(--nav-item-padding) * 2 ));
+    transition: 250ms ease-in-out;
+}
+.indicator::after,
+.indicator::before{
+    content: '';
+    position: absolute;
+    border-radius: 100%;
+}
+.indicator::after{
     background: var(--color-primary);
-    color: var(--color-bg);
+    width: calc(var(--icon-size) * 2);
+    height: calc(var(--icon-size) * 2);
+    top: calc(-1 * var(--icon-size));
 }
-@media screen and (max-width: 600px) {
-
-    nav a {
-        padding: 5px;
+.indicator::before{
+    background: var(--background-color);
+    width: calc((var(--icon-size) + var(--indicator-spacing)) * 2);
+    height: calc((var(--icon-size) + var(--indicator-spacing)) * 2);
+    top: calc(-1 * var(--icon-size) - var(--indicator-spacing));
+    left: calc(-1 * var(--indicator-spacing));
+}
+.corners::before {
+    content: '';
+    box-sizing: content-box;
+    position: absolute;
+    width: var(--border-radius);
+    height: var(--border-radius);
+    background-color: transparent;
+    z-index: 1;
+    top: calc(-1 * var(--indicator-spacing));
+    left: calc(.15 * var(--indicator-spacing));
+    transform: translateX(-100%);
+    border-top-right-radius: 100%;
+    border-width: calc(var(--indicator-spacing));
+    border-color: var(--background-color);
+    border-style: solid;
+    border-left: none;
+    border-bottom: none;
+}
+.corners::after{
+    content: '';
+    box-sizing: content-box;
+    position: absolute;
+    width: var(--border-radius);
+    height: var(--border-radius);
+    background-color: transparent;
+    z-index: 1;
+    top: calc(-1 * var(--indicator-spacing));
+    left: calc(var(--icon-size) * 2 + -.2 * var(--indicator-spacing));
+    border-top-left-radius: 100%;
+    border-width: calc(var(--indicator-spacing));
+    border-color: var(--background-color);
+    border-style: solid;
+    border-right: none;
+    border-bottom: none;
+}
+/* =================== MEDIA QUERIES (SMALL DEVICES) ======================= */
+@media screen and (max-width: 400px) {
+    :root{
+        --icon-size: 1.6rem;
     }
-
 }

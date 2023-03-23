@@ -4,8 +4,8 @@ import './zamowienia-emial.css'
 import {selectLang} from "../../assets/assets";
 import {dataZamowianie} from "./data-zamowianie";
 
-export const ZamowieniaEmail = ({lang}) => {
-    const {message, back} = selectLang(lang, dataZamowianie);
+export const ZamowieniaEmail = () => {
+    const {message, back} = selectLang(dataZamowianie);
     return (
         <>
         <section className='mr30'>

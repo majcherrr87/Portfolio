@@ -1,10 +1,10 @@
 import React from 'react'
 import {ZamowieniaEmail} from "../components/zamowieniaEmail/ZamowieniaEmail";
 
-export const ZamowieniaEmailView = ({lang}) => {
+export const ZamowieniaEmailView = () => {
     return (
         <>
-            <ZamowieniaEmail lang={lang}/>
+            <ZamowieniaEmail/>
         </>
     )
 };

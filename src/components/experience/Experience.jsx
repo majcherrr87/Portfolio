@@ -10,7 +10,7 @@ export const Experience = () => {
     const txtTitle = selectLang(langTitle)
 
     return (
-        <section id='experience'>
+        <section id='experience' className='nav-position'>
             <h5>{txtTitle.subTitle}</h5>
             <h2>{txtTitle.title}</h2>
 

@@ -215,13 +215,13 @@ export const dataProjects = [
         lang: 'POL',
         subject: 'Projekty',
         title: 'Head Hunter [NestJS React TypeScript]',
-        para: 'Projekt Head Hunter to ostatni etap rocznego Bootcampu Full Stack JS, tworzony był w systemie Scrum 6 osobowym zespole. Aplikacja łączy w sobie całą wiedze i&nbsp;technologie, którą uczyliśmy sie podczas bootcampu. Aplikacja została stworzona,aby łączyć przyszłych programistów z rekruterami.',
+        para: 'Projekt Head Hunter to ostatni etap rocznego Bootcampu Full Stack JS, tworzony był w systemie Scrum 6 osobowym zespole. Aplikacja łączy w sobie całą wiedze i technologie, którą uczyliśmy sie podczas bootcampu. Aplikacja została stworzona,aby łączyć przyszłych programistów z rekruterami.',
         link: ['https://github.com/tomczer2t/head_hunter_front', 'https://github.com/tomczer2t/head_hunter_back']
     },
     {
         lang: 'POL',
         title: 'Zamówienia e-mail [Express React TypeScript]',
-        para: 'Projekt Zamówienia e-mail został stworzony na potrzeby restauracji. Dzięki Aplikacji można storzyć baze dostawców towatu oraz przypisać do nich produkty, a&nbsp;następnie dokonywać zamówień drogą e-mail.',
+        para: 'Projekt Zamówienia e-mail został stworzony na potrzeby restauracji. Dzięki Aplikacji można storzyć baze dostawców towaru oraz przypisać do nich produkty, a następnie dokonywać zamówień drogą e-mail.',
         link: ['https://github.com/majcherrr87/zamowienia_email_front', 'https://github.com/majcherrr87/zamowienia_email_back']
     },
     {
@@ -240,7 +240,7 @@ export const dataProjects = [
     {
         lang: 'ENG',
         title: 'Email orders [Express React TypeScript]',
-        para: 'The E-mail Order project was created for the needs of restaurants. Thanks to the Application, you can create a database of towatu suppliers and assign products to them, and then place orders via e-mail.',
+        para: 'The E-mail Order project was created for the needs of restaurants. Thanks to the Application, you can create a database of suppliers of goods and assign products to them, and then place orders via e-mail.',
         link: ['https://github.com/majcherrr87/zamowienia_email_front', 'https://github.com/majcherrr87/zamowienia_email_back']
     },
     {
