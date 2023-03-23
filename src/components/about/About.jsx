@@ -5,13 +5,13 @@ import {FaAward} from 'react-icons/fa';
 import {BiTerminal} from 'react-icons/bi';
 import {VscFolderLibrary} from 'react-icons/vsc';
 import ME from '../../assets/Adrian2.jpg';
-import {dataLang} from "../about/data-lang-about";
 import {selectLang} from "../../assets/assets";
+import {dataLang} from "../about/data-lang-about";
 
 export const About = () => {
     const {title, subtitle, description, button, cardTitle1, cardSubtitle1, cardTitle2, cardSubtitle2, cardTitle3, cardSubtitle3} = selectLang(dataLang)
     return (
-        <section id='about'>
+        <section id='about' className='nav-position'>
             <h5>{subtitle}</h5>
             <h2>{title}</h2>
 

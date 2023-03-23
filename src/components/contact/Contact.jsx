@@ -29,7 +29,7 @@ export const Contact = () => {
         e.target.reset();
     };
     return (
-        <section id='contact'>
+        <section id='contact' className='nav-position'>
             <h5>{subTitle}</h5>
             <h2>{title}</h2>
             <div className="container contact__container">

@@ -1,27 +1,25 @@
 import React, {useState} from 'react';
 
 import './nav.css';
-import home from '../../assets/svg/home.svg'
-import message from '../../assets/svg/message.svg'
-import about from '../../assets/svg/about.svg'
+import homeIco from '../../assets/svg/homeIco.svg'
+import messageIco from '../../assets/svg/messageIco.svg'
+import aboutIco from '../../assets/svg/aboutIco.svg'
 import skills from '../../assets/svg/skills.svg'
-import portfolio from '../../assets/svg/portfolio.svg'
-import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai';
-import {FiBook} from "react-icons/fi";
-import {RiServiceLine} from "react-icons/ri";
-import {BiMessageSquareDetail} from "react-icons/bi";
+import portfolioIco from '../../assets/svg/portfolioIco.svg'
+import {selectLang} from "../../assets/assets";
+import {DataLangNav} from '../nav/data-lang-nav';
 
 export const Nav = () => {
-    const [activeNav, setActiveNav] = useState({name: '#', index: 0});
+    const [activeNav, setActiveNav] = useState({name: '#header', index: 0});
     const lang = localStorage.getItem('lang');
     const changeLang = lang === 'POL' ? 'ENG' : 'POL';
     const indicator = document.querySelector('[data-indicator]');
+    const {home, about, experience, portfolio, contact} = selectLang(DataLangNav);
+
 
     if (indicator != null){
         indicator.style.setProperty('--position', activeNav.index);
     }
-    const kot = document.getElementById('header');
-    console.log(kot)
 
     return (
         <div>
@@ -30,39 +28,39 @@ export const Nav = () => {
                     <div data-indicator className="indicator">
                         <div className="corners"></div>
                     </div>
-                    <li onClick={() => setActiveNav({name: '#', index: 0})} className={activeNav.name === '#' ? 'active' : ''}><a href="#">
+                    <li onClick={() => setActiveNav({name: '#header', index: 0})} className={activeNav.name === '#header' ? 'active' : ''}><a href="#header">
                         <div className='icon'>
-                            <img src={home} alt="home"/>
+                            <img src={homeIco} alt="home"/>
                         </div>
-                        <div className='text'>Home</div>
+                        <div className='text'>{home}</div>
                     </a></li>
 
                     <li onClick={() => setActiveNav({name: '#about', index: 1})} className={activeNav.name === '#about' ? 'active' : ''}><a href="#about">
                         <div className='icon'>
-                            <img src={about} alt="home"/>
+                            <img src={aboutIco} alt="about"/>
                         </div>
-                        <div className='text'>About</div>
+                        <div className='text'>{about}</div>
                     </a></li>
 
                     <li onClick={() => setActiveNav({name: '#experience', index: 2})} className={activeNav.name === '#experience' ? 'active' : ''}><a href="#experience">
                         <div className='icon'>
-                            <img src={skills} alt="home"/>
+                            <img src={skills} alt="experience"/>
                         </div>
-                        <div className='text'>Experience</div>
+                        <div className='text'>{experience}</div>
                     </a></li>
 
                     <li onClick={() => setActiveNav({name: '#portfolio', index: 3})} className={activeNav.name === '#portfolio' ? 'active' : ''}><a href="#portfolio">
                         <div className='icon'>
-                            <img src={portfolio} alt="home"/>
+                            <img src={portfolioIco} alt="portfolio"/>
                         </div>
-                        <div className='text'>Portfolio</div>
+                        <div className='text'>{portfolio}</div>
                     </a></li>
 
                     <li onClick={() => setActiveNav({name: '#contact', index: 4})} className={activeNav.name === '#contact' ? 'active' : ''}><a href="#contact">
                         <div className='icon'>
-                            <img src={message} alt="home"/>
+                            <img src={messageIco} alt="contact"/>
                         </div>
-                        <div className='text'>Contact</div>
+                        <div className='text'>{contact}</div>
                     </a></li>
 
                     <li onClick={() =>  localStorage.setItem('lang', changeLang)} className={activeNav.name === '#language' ? 'active' : ''}><a href="/">

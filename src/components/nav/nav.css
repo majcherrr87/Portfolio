@@ -69,45 +69,6 @@
     transform: translateY(calc(-50% - var(--nav-item-padding)));
 }
 
-
-
-
-/*.nav-list .active::before{*/
-/*    content: '';*/
-/*    box-sizing: content-box;*/
-/*    position: absolute;*/
-/*    width: var(--border-radius);*/
-/*    height: var(--border-radius);*/
-/*    background-color: white;*/
-/*    z-index: 1;*/
-/*    top: calc(-1 * var(--indicator-spacing));*/
-/*    left: calc(.15 * var(--indicator-spacing));*/
-/*    transform: translateX(-100%);*/
-/*    border-top-right-radius: 100%;*/
-/*    border-width: calc(var(--indicator-spacing));*/
-/*    border-color: var(--background-color);*/
-/*    border-style: solid;*/
-/*    border-left: none;*/
-/*    border-bottom: none;*/
-/*}*/
-/*.nav-list .active::after{*/
-/*    content: '';*/
-/*    box-sizing: content-box;*/
-/*    position: absolute;*/
-/*    width: var(--border-radius);*/
-/*    height: var(--border-radius);*/
-/*    background-color: white;*/
-/*    z-index: 1;*/
-/*    top: calc(-1 * var(--indicator-spacing));*/
-/*    right: calc(.15 * var(--indicator-spacing));*/
-/*    transform: translateX(100%);*/
-/*    border-top-left-radius: 100%;*/
-/*    border-width: calc(var(--indicator-spacing));*/
-/*    border-color: var(--background-color);*/
-/*    border-style: solid;*/
-/*    border-right: none;*/
-/*    border-bottom: none;*/
-/*}*/
 .nav-list{
     position: relative;
 }
@@ -170,49 +131,9 @@
     border-right: none;
     border-bottom: none;
 }
-
-
-
-
-
-/*nav {*/
-/*    background: rgba(0, 0, 0,  0.3);*/
-/*    width: max-content;*/
-/*    padding: 0.7rem 1.7rem;*/
-/*    z-index: 2;*/
-/*    position: fixed;*/
-/*    left: 50%;*/
-/*    transform: translateX(-50%);*/
-/*    bottom: 2rem;*/
-/*    display: flex;*/
-/*    gap:0.8rem;*/
-/*    border-radius: 3rem;*/
-/*    backdrop-filter: blur(15px);*/
-/*}*/
-/*nav a {*/
-/*    background: transparent;*/
-/*    !*padding: 0.9rem;*!*/
-/*    padding: 1rem 1rem;*/
-/*    border-radius: 50%;*/
-/*    display: flex;*/
-/*    color: var(--color-light);*/
-/*    font-size: 1.1rem;*/
-/*    align-items: center;*/
-/*}*/
-/*nav a svg {*/
-/*    margin: 7px;*/
-/*}*/
-/*nav a:hover {*/
-/*    background: rgba(0,0,0, 0.3);*/
-/*}*/
-/*nav a.active {*/
-/*    background: var(--color-primary);*/
-/*    color: var(--color-bg);*/
-/*}*/
-/*@media screen and (max-width: 600px) {*/
-
-/*    nav a {*/
-/*        padding: 5px;*/
-/*    }*/
-
-/*}*/
+/* =================== MEDIA QUERIES (SMALL DEVICES) ======================= */
+@media screen and (max-width: 400px) {
+    :root{
+        --icon-size: 1.6rem;
+    }
+}

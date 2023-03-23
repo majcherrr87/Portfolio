@@ -7,7 +7,7 @@ import './portfolio.css';
 export const Portfolio = () => {
     const {title, subTitle, names} = selectLang(dataLang)
     return (
-        <section id='portfolio'>
+        <section id='portfolio' className='nav-position'>
             <h5>{subTitle}</h5>
             <h2>{title}</h2>
 

@@ -8,7 +8,7 @@ import {selectLang} from "../../assets/assets";
 export const Services = () => {
     const card = selectLang(data, true);
     return (
-        <section id='services'>
+        <section id='services' className='nav-position'>
             <h5>{card[0].subtitle}</h5>
             <h2>{card[0].title}</h2>
 

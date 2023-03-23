@@ -14,7 +14,7 @@ export const Header = () => {
 
     return (
         <header>
-            <div className="container header__container" id="header">
+            <div className="container header__container nav-position" id="header">
 
                 <h5>{subtitle}</h5>
                 <h1>{title}</h1>
