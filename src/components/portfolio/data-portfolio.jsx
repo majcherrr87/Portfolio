@@ -43,5 +43,11 @@ export const data = [
         github: 'https://github.com/tomczer2t/head_hunter_front#introduction',
         demo: '#portfolio'
     },
+    {
+        id: 4,
+        image: IMG4,
+        github: 'https://github.com/tomczer2t/head_hunter_front#introduction',
+        demo: '/fdf'
+    },
 
 ]

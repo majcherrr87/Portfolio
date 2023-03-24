@@ -29,12 +29,12 @@ html {
 ::-webkit-scrollbar {
     display: none;
 }
-body {
+.portfolio__view {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url("../src/assets/bg-texture.png");
+    background-image: url("../../assets/bg-texture.png");
 }
 
 /*=================== GENERAL STYLE =======================*/
