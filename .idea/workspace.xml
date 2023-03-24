@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-20_21_25__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-20_21_25__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-20_21_32__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-20_21_32__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-20_21_33__Default_Changelist_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-20_21_33__Default_Changelist_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-20_22_46__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-20_22_46__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-23_21_53__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-23_21_53__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-23_21_53__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-23_21_53__Default_Changelist_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/data-portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/CvView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CvView.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/PortfolioView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/PortfolioView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/Hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/Hero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/FdfView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FdfView.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +66,11 @@
       <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\portfolio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\fdf\fdf-component" />
       <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\fdf\fdf-component\hero" />
       <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\portfolio" />
       <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\assets\portfolio" />
       <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\assets\courses" />
-      <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\assets\avatar" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -167,7 +161,7 @@
       <workItem from="1678879285077" duration="5832000" />
       <workItem from="1678987569422" duration="13384000" />
       <workItem from="1679569156591" duration="19161000" />
-      <workItem from="1679650807010" duration="5845000" />
+      <workItem from="1679650807010" duration="19404000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -414,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679353967767</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="start new project FDF">
+      <created>1679665350385</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1679665350385</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added new component Contact" />
     <MESSAGE value="finish component Contact" />
     <MESSAGE value="finish all page" />
     <MESSAGE value="add new information" />
@@ -469,6 +469,7 @@
     <MESSAGE value="start to add english in CV component" />
     <MESSAGE value="finish my page have english version" />
     <MESSAGE value="day is finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="day is finish" />
+    <MESSAGE value="start new project FDF" />
+    <option name="LAST_COMMIT_MESSAGE" value="start new project FDF" />
   </component>
 </project>
