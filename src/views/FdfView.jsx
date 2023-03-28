@@ -6,6 +6,7 @@ import '../components/fdf/fdf.css'
 import {Reasons} from "../components/fdf/fdf-component/reasons/Reasons";
 import {Plans} from "../components/fdf/fdf-component/plans/Plans";
 import {Testimonials} from "../components/fdf/fdf-component/testimonials/Testimonials";
+import {Join} from "../components/fdf/fdf-component/join/Join";
 
 export const FdfView = () => {
     return (
@@ -16,6 +17,7 @@ export const FdfView = () => {
                 <Reasons/>
                 <Plans/>
                 <Testimonials/>
+                <Join/>
             </div>
 
         </>
