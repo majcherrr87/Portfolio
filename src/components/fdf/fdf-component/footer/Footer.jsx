@@ -19,6 +19,8 @@ export const Footer = () => {
                     <img src={Logo} alt=""/>
                 </div>
             </div>
+            <div className="fdf-blur fdf-blur-footer-1"></div>
+            <div className="fdf-blur fdf-blur-footer-2"></div>
         </div>
     )
 }

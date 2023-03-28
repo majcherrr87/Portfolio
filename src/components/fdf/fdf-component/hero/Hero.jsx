@@ -11,6 +11,7 @@ import './Hero.css';
 export const Hero = () => {
     return (
         <div className='hero'>
+            <div className="fdf-blur fdf-blur-hero"></div>
             <div className="left-h">
                 <Header/>
 

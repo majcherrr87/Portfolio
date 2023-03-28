@@ -6,6 +6,8 @@ import './plans.css'
 export const Plans = () => {
     return (
         <div className='plans-container'>
+            <div className="fdf-blur fdf-blur-plans-1"></div>
+            <div className="fdf-blur fdf-blur-plans-2"></div>
             <div className="programs-header second">
                 <span className='stroke-text'>Ready to start</span>
                 <span>Your Journey</span>
