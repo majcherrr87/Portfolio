@@ -12,7 +12,45 @@ import './reasons.css';
 export const Reasons = () => {
     return (
         <div className="Reasons" id="reasons">
-//:TODO 50:02  https://www.youtube.com/watch?v=gpqoZQ8GNK8&list=TLPQMjQwMzIwMjMvkrwcc39ODg&index=2
+            <div className="left-r">
+                <img src={image1} alt=""/>
+                <img src={image2} alt=""/>
+                <img src={image3} alt=""/>
+                <img src={image4} alt=""/>
+            </div>
+            <div className="right-r">
+                <span>some reasons</span>
+                <div>
+                    <span className='stroke-text'>why</span>
+                    <span> choose us?</span>
+                </div>
+
+                <div className='details-r'>
+                    <div>
+                        <img src={tick} alt=""/>
+                        <span>Over 140+ Expert Coach's</span>
+                    </div>
+                    <div>
+                        <img src={tick} alt=""/>
+                        <span>Train smarter and faster then before</span>
+                    </div>
+                    <div>
+                        <img src={tick} alt=""/>
+                        <span>1 free program for new member</span>
+                    </div>
+                    <div>
+                        <img src={tick} alt=""/>
+                        <span>reliable partners</span>
+                    </div>
+                </div>
+                <span id='normal'>our partners</span>
+                <div className="partners">
+                    <img src={nb} alt=""/>
+                    <img src={adidas} alt=""/>
+                    <img src={nike} alt=""/>
+                </div>
+
+            </div>
         </div>
     )
 }
