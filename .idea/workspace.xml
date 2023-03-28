@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="" />
+    <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="add Join component">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/FdfView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FdfView.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +158,7 @@
       <workItem from="1679569156591" duration="19161000" />
       <workItem from="1679650807010" duration="19587000" />
       <workItem from="1679909433917" duration="953000" />
-      <workItem from="1679997477962" duration="18801000" />
+      <workItem from="1679997477962" duration="20886000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -437,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680039049754</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="add Join component">
+      <created>1680039066236</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1680039066236</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
