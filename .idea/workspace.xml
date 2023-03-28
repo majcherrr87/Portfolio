@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/FdfView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FdfView.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,7 +155,7 @@
       <workItem from="1679569156591" duration="19161000" />
       <workItem from="1679650807010" duration="19587000" />
       <workItem from="1679909433917" duration="953000" />
-      <workItem from="1679997477962" duration="18496000" />
+      <workItem from="1679997477962" duration="18801000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -434,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680034854699</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="add Join component">
+      <created>1680039049754</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1680039049754</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +467,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new style css and data-experience" />
     <MESSAGE value="add new animation" />
     <MESSAGE value="add new information to about me component" />
     <MESSAGE value="add new skills" />
@@ -489,6 +491,7 @@
     <MESSAGE value="add Header and Programs in to FDF component" />
     <MESSAGE value="add Reasons component" />
     <MESSAGE value="add Testimonials component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Testimonials component" />
+    <MESSAGE value="add Join component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Join component" />
   </component>
 </project>
