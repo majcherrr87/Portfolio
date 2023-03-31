@@ -5,14 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-23_21_53_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-23_21_53_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-23_21_53__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-23_21_53__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-03-23_21_57_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-03-23_21_57__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-03-23_21_59_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-03-23_21_59__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/Hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/Hero.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/join/Join.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/join/Join.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/plans/Plans.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/plans/Plans.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/plans/plans.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/plans/plans.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/programs/programs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/programs/programs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/reasons/reasons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/reasons/reasons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/testimonials/Testimonials.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/testimonials/Testimonials.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/testimonials/Testimonials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/testimonials/Testimonials.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testimonials/Testimonials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/Testimonials.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +72,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Kot i Miś\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.4167.31\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -164,7 +179,9 @@
       <workItem from="1679569156591" duration="19161000" />
       <workItem from="1679650807010" duration="19587000" />
       <workItem from="1679909433917" duration="953000" />
-      <workItem from="1679997477962" duration="22311000" />
+      <workItem from="1679997477962" duration="22454000" />
+      <workItem from="1680262291897" duration="14446000" />
+      <workItem from="1680288142734" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -460,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680041240497</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="add blur on background page">
+      <created>1680042775321</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1680042775321</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add new information to about me component" />
     <MESSAGE value="add new skills" />
     <MESSAGE value="finish page" />
     <MESSAGE value="add react router dom and CV component" />
@@ -515,6 +538,7 @@
     <MESSAGE value="add Testimonials component" />
     <MESSAGE value="add Join component" />
     <MESSAGE value="add Footer component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Footer component" />
+    <MESSAGE value="add blur on background page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add blur on background page" />
   </component>
 </project>

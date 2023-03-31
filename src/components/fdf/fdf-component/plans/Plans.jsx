@@ -5,7 +5,7 @@ import './plans.css'
 
 export const Plans = () => {
     return (
-        <div className='plans-container'>
+        <div className='plans-container' id='plans'>
             <div className="fdf-blur fdf-blur-plans-1"></div>
             <div className="fdf-blur fdf-blur-plans-2"></div>
             <div className="programs-header second">
