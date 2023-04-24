@@ -1,12 +1,11 @@
 import React from 'react';
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import {data,langData} from './data-testimonial';
+import {selectLang} from "../../assets/assets";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './testimonials.css';
-import {data,langData} from './data-testimonial';
-import {selectLang} from "../../assets/assets";
 
 export const Testimonials = () => {
     const {title, subTitle} = selectLang(langData);
