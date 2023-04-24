@@ -5,29 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="772f0837-9bc5-44ba-adff-caa166b9d2b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-23_21_53_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-23_21_53_[Default_Changelist]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-23_21_53__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-03-23_21_53__Default_Changelist_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-03-23_21_57_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-03-23_21_57__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-03-23_21_59_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-03-23_21_59__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/Hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/Hero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/footer/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/Hero.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/header/Header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/hero/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/join/Join.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/join/Join.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/plans/Plans.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/plans/Plans.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/plans/plans.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/plans/plans.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/programs/programs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/programs/programs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/reasons/reasons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/reasons/reasons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/testimonials/Testimonials.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/testimonials/Testimonials.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/testimonials/Testimonials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/testimonials/Testimonials.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/testimonials/Testimonials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials/Testimonials.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf-component/join/Join.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf-component/join/Join.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fdf/fdf.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fdf/fdf.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/FdfView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FdfView.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -60,25 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Z:/Adrian/fdf/FDF&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Kot i Miś\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.4167.31\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "Z:/Adrian/Portfolio/react-portfolio-website",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "C:\\Users\\Kot i Miś\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.4167.31\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\fdf\fdf-component" />
+      <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\fdf\fdf-component\footer" />
       <recent name="Z:\Adrian\Portfolio\react-portfolio-website\src\components\portfolio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -181,7 +170,14 @@
       <workItem from="1679909433917" duration="953000" />
       <workItem from="1679997477962" duration="22454000" />
       <workItem from="1680262291897" duration="14446000" />
-      <workItem from="1680288142734" duration="637000" />
+      <workItem from="1680288142734" duration="1303000" />
+      <workItem from="1680345439988" duration="717000" />
+      <workItem from="1680600526126" duration="2590000" />
+      <workItem from="1680605502376" duration="2708000" />
+      <workItem from="1680609803748" duration="12967000" />
+      <workItem from="1680697207965" duration="8782000" />
+      <workItem from="1681301931620" duration="3697000" />
+      <workItem from="1682344447234" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="Added components">
       <created>1654180616576</created>
@@ -484,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680042775321</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add animate and responsive to page">
+      <created>1680289089678</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1680289089678</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add new skills" />
     <MESSAGE value="finish page" />
     <MESSAGE value="add react router dom and CV component" />
     <MESSAGE value="add left side of CV" />
@@ -539,6 +541,17 @@
     <MESSAGE value="add Join component" />
     <MESSAGE value="add Footer component" />
     <MESSAGE value="add blur on background page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add blur on background page" />
+    <MESSAGE value="add animate and responsive to page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add animate and responsive to page" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/fdf/fdf-component/hero/header/Header.jsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

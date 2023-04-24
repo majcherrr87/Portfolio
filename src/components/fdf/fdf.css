@@ -41,7 +41,7 @@
     cursor: pointer;
 }
 .fdf-blur {
-    background: rgba(253, 120, 43, .69);
+    background: rgba(20, 253, 0, 0.69);
     position: absolute;
     border-radius: 50%;
     filter: blur(150px);

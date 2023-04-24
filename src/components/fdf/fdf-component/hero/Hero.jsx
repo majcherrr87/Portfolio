@@ -1,6 +1,7 @@
 import React from 'react';
 import {Header} from "./header/Header";
-import hero_image from '../../../../assets/fdf/hero_image.png';
+// import hero_image from '../../../../assets/fdf/hero_image.png';
+import hero_image from '../../../../assets/fdf/IMiiiii7.png';
 import hero_image_back from '../../../../assets/fdf/hero_image_back.png';
 import Heart from '../../../../assets/fdf/heart.png';
 import Calories from '../../../../assets/fdf/calories.png';
@@ -8,12 +9,14 @@ import {motion} from 'framer-motion';
 import NumberCounter from 'number-counter'
 
 import './Hero.css';
+import {Video} from "../video/Video";
 
 
 export const Hero = () => {
     const transition = {type: 'spring', duration: 3};
     const mobile = window.innerWidth <= 768;
-    return (
+    return (<>
+        {/*<Video/>*/}
         <div className='hero'>
             <div className="fdf-blur fdf-blur-hero"></div>
             <div className="left-h">
@@ -86,7 +89,9 @@ export const Hero = () => {
                     className="heart-rate">
                     <img src={Heart} alt=""/>
                     <span>Heart Rate</span>
-                    <span>116 bmp</span>
+                    <span>
+                        <NumberCounter end={119} start={80} deley={10} postFix='bmp'/>
+                    </span>
                 </motion.div>
 
             {/* hero images*/}
@@ -114,5 +119,5 @@ export const Hero = () => {
 
             </div>
         </div>
-    )
+    </>)
 }

@@ -26,7 +26,7 @@ export const Join = () => {
             <div className="right-j">
                 <form ref={form} className='email-container' onSubmit={sendEmail}>
                     <input type="email" name='user_email' placeholder='Enter your Email address'/>
-                    <button className='hero-btn btn-j'>Join Now</button>
+                    <button className='hero-btn btn-j'>Video Now</button>
                 </form>
             </div>
         </div>

@@ -3,7 +3,7 @@ import Github from '../../../../assets/fdf/github.png';
 import Instagram from '../../../../assets/fdf/instagram.png';
 import LinkedIn from '../../../../assets/fdf/linkedin.png';
 import Logo from '../../../../assets/fdf/logo.png';
-import './Footer.css';
+import './Footer.scss';
 
 export const Footer = () => {
     return (
